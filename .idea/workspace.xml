@@ -3,45 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode01.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode01.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode02.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode02.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode03.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode03.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode09.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode09.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode13.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode13.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode14.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode14.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/LeetCode64.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/LeetCode64.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/Leetcode05.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/Leetcode05.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/Leetcode07.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/Leetcode07.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithm/algorithm1.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/algorithm/algorithm1.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/ClimbingStairs.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/ClimbingStairs.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/DecodeWays.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/DecodeWays.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode121.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode121.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode198.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode198.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode300.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode300.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode53.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode53.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode55.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode55.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LeetCode62.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LeetCode62.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LongestPaliandromicSubstring.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LongestPaliandromicSubstring.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/LongestPalindrome.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LongestPalindrome.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/MaximalSquare.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/MaximalSquare.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/MaximumProductSubarray.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/MaximumProductSubarray.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/Solution.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/Solution.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/Triangle.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/Triangle.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/UglyNumber.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/UglyNumber.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/UniqueBinarySearchTrees.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/UniqueBinarySearchTrees.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/UniquePaths.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/UniquePaths.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/UniquePathsWithObstables.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/UniquePathsWithObstables.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/WordBreak.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/WordBreak.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/dynamic_programming/WordSearch.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/WordSearch.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/BubbleSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/BubbleSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/CountSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/CountSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/HeapSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/HeapSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/InsertSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/InsertSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/MergeSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/MergeSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/QuickSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/QuickSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/RadixSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/RadixSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/SelectSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/SelectSort.java" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/sort/ShellSort.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/ShellSort.java" />
+      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +45,8 @@
       <file leaf-file-name="QueueReconstructByHigh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -114,14 +76,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="83">
+              <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxAreaOfIsland.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberIsIsland.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,36 +126,6 @@
               <folding>
                 <element signature="e#6252#6253#0" expanded="true" />
                 <element signature="e#6320#6321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23375">
-              <caret line="1430" column="27" lean-forward="false" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interval.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/lib/sa-jdi.jar!/sun/jvm/hotspot/utilities/Interval.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <marker date="1481605180000" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1481605180000" expanded="true" signature="323:412" ph="{...}" />
-                <marker date="1481605180000" expanded="false" signature="448:459" ph=" { " />
-                <marker date="1481605180000" expanded="false" signature="483:489" ph=" }" />
-                <marker date="1481605180000" expanded="false" signature="526:537" ph=" { " />
-                <marker date="1481605180000" expanded="false" signature="562:568" ph=" }" />
-                <marker date="1481605180000" expanded="true" signature="643:745" ph="{...}" />
-                <marker date="1481605180000" expanded="true" signature="857:1089" ph="{...}" />
-                <marker date="1481605180000" expanded="true" signature="1120:1232" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -216,8 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/UniquePathsWithObstables.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/UniqueBinarySearchTrees.java" />
@@ -267,6 +217,8 @@
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MinPathLength.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java" />
       </list>
     </option>
   </component>
@@ -284,7 +236,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -344,6 +296,14 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="bfs_dfs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="greedy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -377,12 +337,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PerfectSquare">
+  <component name="RunManager" selected="Application.MaxAreaOfIsland">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="MaxAreaOfIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lin.java.test.algorithms.bfs_dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.MaxAreaOfIsland" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms" />
+      <envs />
     </configuration>
     <configuration name="MinPathLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -392,44 +371,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.MinPathLength" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithms" />
-      <envs />
-    </configuration>
-    <configuration name="MinimumNumberofArrowstoBurstBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lin.java.test.algorithms.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.greedy.MinimumNumberofArrowstoBurstBalloons" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithms" />
-      <envs />
-    </configuration>
-    <configuration name="NonOverlaping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lin.java.test.algorithms.greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.greedy.NonOverlaping" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -468,6 +409,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.greedy.QueueReconstructByHigh" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms" />
+      <envs />
+    </configuration>
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lin.java.test.algorithms.bfs_dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.WordLadder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -554,19 +514,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NonOverlaping" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MinimumNumberofArrowstoBurstBalloons" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QueueReconstructByHigh" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MinPathLength" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PerfectSquare" />
+      <item index="0" class="java.lang.String" itemvalue="Application.QueueReconstructByHigh" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MinPathLength" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PerfectSquare" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WordLadder" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PerfectSquare" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinPathLength" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QueueReconstructByHigh" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MinimumNumberofArrowstoBurstBalloons" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NonOverlaping" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
+        <item index="1" class="java.lang.String" itemvalue="Application.WordLadder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PerfectSquare" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MinPathLength" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QueueReconstructByHigh" />
       </list>
     </recent_temporary>
   </component>
@@ -592,15 +552,15 @@
       <workItem from="1525789719715" duration="5017000" />
       <workItem from="1525829596261" duration="17134000" />
       <workItem from="1525915715305" duration="27411000" />
-      <workItem from="1526195993780" duration="12011000" />
+      <workItem from="1526195993780" duration="16852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118848000" />
+    <option name="totallyTimeSpent" value="123689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="826" extended-state="6" />
+    <frame x="-1" y="23" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,7 +581,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859155" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112676" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32132566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -877,26 +837,24 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/ClimbingStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47787">
-          <caret line="2896" column="18" lean-forward="false" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1242,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="399">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1270,11 +1228,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="83">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
