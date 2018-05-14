@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NonOverlaping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/NonOverlaping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MinimumNumberofArrowstoBurstBalloons.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/MinimumNumberofArrowstoBurstBalloons.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,8 +32,8 @@
       <file leaf-file-name="QueueReconstructByHigh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="561">
+              <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -55,8 +42,8 @@
       <file leaf-file-name="MinPathLength.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MinPathLength.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +54,7 @@
       <file leaf-file-name="PerfectSquare.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="561">
               <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,7 +66,7 @@
       <file leaf-file-name="WordLadder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="765">
               <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,7 +78,7 @@
       <file leaf-file-name="MaxAreaOfIsland.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
+            <state relative-caret-position="68">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -101,7 +88,7 @@
       <file leaf-file-name="NumberIsIsland.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="459">
               <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
@@ -111,19 +98,31 @@
       <file leaf-file-name="FriendCircle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/FriendCircle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurroundedRegions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurroundedRegions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="270">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacificAtlantic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PacificAtlantic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,7 +146,7 @@
       <replace>'</replace>
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms</dir>
+      <dir>$PROJECT_DIR$/src/lin/java/test/algorithms</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -159,15 +158,14 @@
     </option>
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/..//////////servletjsp2-apps/chapter04/jspdemo" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/..//////////wechat_jump_hack" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/..///////////servletjsp2-apps/chapter04/jspdemo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/..///////////wechat_jump_hack" value="PREVIEW" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/UniqueBinarySearchTrees.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/DecodeWays.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/Triangle.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/dynamic_programming/WordBreak.java" />
@@ -209,15 +207,16 @@
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/greedy/NonOverlaping.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/greedy/MinimumNumberofArrowstoBurstBalloons.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/minPathLength.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MinPathLength.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/FriendCircle.java" />
-        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/minPathLength.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/MinPathLength.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/FriendCircle.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PacificAtlantic.java" />
       </list>
     </option>
   </component>
@@ -236,8 +235,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="23" />
+    <option name="x" value="-1209" />
+    <option name="y" value="-79" />
     <option name="width" value="1440" />
     <option name="height" value="826" />
   </component>
@@ -259,9 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,7 +305,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SurroundedRegions">
+  <component name="RunManager" selected="Application.PacificAtlantic">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -400,14 +399,14 @@
       <module name="algorithms" />
       <envs />
     </configuration>
-    <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PacificAtlantic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="lin.java.test.algorithms.bfs_dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.SurroundedRegions" />
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.PacificAtlantic" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -419,14 +418,14 @@
       <module name="algorithms" />
       <envs />
     </configuration>
-    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="lin.java.test.algorithms.bfs_dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.WordLadder" />
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.bfs_dfs.SurroundedRegions" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -513,19 +512,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WordLadder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NumberIsIsland" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FriendCircle" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NumberIsIsland" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FriendCircle" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PacificAtlantic" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FriendCircle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NumberIsIsland" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WordLadder" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PacificAtlantic" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FriendCircle" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NumberIsIsland" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaxAreaOfIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -551,15 +550,16 @@
       <workItem from="1525789719715" duration="5017000" />
       <workItem from="1525829596261" duration="17134000" />
       <workItem from="1525915715305" duration="27411000" />
-      <workItem from="1526195993780" duration="20437000" />
+      <workItem from="1526195993780" duration="21081000" />
+      <workItem from="1526262914417" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127274000" />
+    <option name="totallyTimeSpent" value="129287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="826" extended-state="0" />
+    <frame x="-1209" y="-79" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -579,12 +579,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859155" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859155" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112676" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32132566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -593,6 +592,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -831,25 +831,25 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java</url>
+          <url>file://$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java</url>
+          <url>file://$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java</url>
           <line>33</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java</url>
+          <url>file://$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java</url>
+          <url>file://$PROJECT_DIR$/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="48" />
@@ -860,13 +860,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/WordSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/dynamic_programming/WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1104,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,17 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1481605180000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1481605180000" expanded="true" signature="323:412" ph="{...}" />
-            <marker date="1481605180000" expanded="false" signature="448:459" ph=" { " />
-            <marker date="1481605180000" expanded="false" signature="483:489" ph=" }" />
-            <marker date="1481605180000" expanded="false" signature="526:537" ph=" { " />
-            <marker date="1481605180000" expanded="false" signature="562:568" ph=" }" />
-            <marker date="1481605180000" expanded="true" signature="643:745" ph="{...}" />
-            <marker date="1481605180000" expanded="true" signature="857:1089" ph="{...}" />
-            <marker date="1481605180000" expanded="true" signature="1120:1232" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,10 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,17 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/MinimumNumberofArrowstoBurstBalloons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,18 +1155,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/MinimumNumberofArrowstoBurstBalloons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/greedy/QueueReconstructByHigh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="561">
+          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MinPathLength.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1209,7 +1185,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PerfectSquare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="561">
           <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1219,7 +1195,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="765">
           <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1229,7 +1205,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/MaxAreaOfIsland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
+        <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
@@ -1237,7 +1213,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/NumberIsIsland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="459">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="16" />
           <folding />
         </state>
@@ -1245,17 +1221,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/FriendCircle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/bfs_dfs/PacificAtlantic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="54" column="72" lean-forward="false" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
