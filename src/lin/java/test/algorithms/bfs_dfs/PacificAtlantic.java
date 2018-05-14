@@ -27,8 +27,8 @@ public class PacificAtlantic {
         boolean[][] p = new boolean[row][col];
         boolean[][] a = new boolean[row][col];
         for (int i = 0; i < col; i++) {
-            dfs(matrix, 0, i, a);
-            dfs(matrix, 0, row - 1, p);
+            dfs(matrix, 0, i, p);
+            dfs(matrix, row - 1, i, a);
         }
 
         for (int j = 0; j < row; j++) {
@@ -52,7 +52,7 @@ public class PacificAtlantic {
         }
         visited[i][j] = true;
         for (int[] d : direct) {
-            if (i + d[0] < 0 || i + d[0] >= matrix.length || j < 0 || j + d[1] >= matrix[0].length || matrix[i][j] > matrix[i + d[0]][j + d[1]]) {
+            if (i + d[0] < 0 || i + d[0] >= matrix.length || j +d[1] < 0 || j + d[1] >= matrix[0].length || matrix[i][j] > matrix[i + d[0]][j + d[1]]) {
                 continue;
             }
             dfs(matrix, i + d[0], j + d[1], visited);
