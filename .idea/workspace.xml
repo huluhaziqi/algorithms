@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/WordSearch.java" afterPath="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/WordSearch.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SubSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet.java">
+      <file leaf-file-name="SubSet2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+            <state relative-caret-position="201">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lin/java/test/sort/RadixSort.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/heap/MergekSortedLists.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/binary_search/Sqrt.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/binary_search/FindSmallestLetterGreaterThanTarget.java" />
@@ -133,6 +119,7 @@
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/CombinationsSum.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/CombinationSum3.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet2.java" />
       </list>
     </option>
   </component>
@@ -151,8 +138,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1536" />
-    <option name="y" value="14" />
+    <option name="x" value="-1151" />
     <option name="width" value="1440" />
     <option name="height" value="826" />
   </component>
@@ -461,15 +447,15 @@
       <workItem from="1525915715305" duration="27411000" />
       <workItem from="1526195993780" duration="21081000" />
       <workItem from="1526262914417" duration="29781000" />
-      <workItem from="1526383016304" duration="14312000" />
+      <workItem from="1526383016304" duration="15568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172011000" />
+    <option name="totallyTimeSpent" value="173267000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1536" y="14" width="1440" height="826" extended-state="0" />
+    <frame x="-1151" y="0" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -488,11 +474,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2859155" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2859155" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9887324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33285302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33285302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -818,13 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/javaBasic/reflect/Reflect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1186,7 +1165,7 @@
         <state relative-caret-position="152">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1196,7 +1175,7 @@
         <state relative-caret-position="369">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1206,7 +1185,7 @@
         <state relative-caret-position="427">
           <caret line="32" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1219,20 +1198,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet.java">
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="65">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/Permutations.java">
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+        <state relative-caret-position="83">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/backTracing/SubSet2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
