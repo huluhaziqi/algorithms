@@ -37,6 +37,9 @@ public class FutureTest {
                     return "callable";
                 }
             });
+
+            Thread thread2 = new Thread(futureTask);
+            thread2.start();
             String result = future.get();
             System.out.println(result);
         } catch (InterruptedException e) {
