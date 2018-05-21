@@ -10,7 +10,7 @@ public class Robot2 {
         if(nums.length == 1){
             return nums[0];
         }
-        return Math.max(f(nums, 0, nums.length - 2), f(nums,1, nums.length - 1);
+        return Math.max(f(nums, 0, nums.length - 2), f(nums,1, nums.length - 1));
     }
 
     public int f(int[] nums, int start, int end) {
