@@ -15,6 +15,7 @@ public class Combinations {
     }
 
 
+
         public List<List<Integer>> combine(int n, int k) {
             List<List<Integer>> result = new ArrayList<>();
             boolean[] visited = new boolean[n + 1];
