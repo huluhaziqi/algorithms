@@ -14,23 +14,21 @@ public class TargetSum {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int ret = 0;
-        ret = dfs(nums, 0, 0, S);
-        return ret;
+        dfs(nums, 0, 0, S);
+        return result;
     }
-
-    int dfs(int[] nums, int level, int value, int S) {
+    int result = 0;
+    void dfs(int[] nums, int level, int value, int S) {
         if (level == nums.length && value == S) {
-            return 1;
+            result++;
+            return;
         }
         if (level >= nums.length) {
-            return 0;
+            return;
         }
-        int result = 0;
-        for (int j : f) {
-            result += dfs(nums, level + 1, value + j * nums[level], S);
+        for(int d : f){
+            dfs(nums,level + 1,d * nums[level] + value,S);
         }
-        return result;
     }
 
     public int findTargetSumWays(int[] nums, int S) {
