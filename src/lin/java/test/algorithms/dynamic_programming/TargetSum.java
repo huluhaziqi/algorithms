@@ -56,4 +56,40 @@ public class TargetSum {
         }
         return dp[target];
     }
+
+    class Solution {
+        public int findTargetSumWays(int[] nums, int S) {
+            return dfs(nums,S,0);
+        }
+        int dfs(int[] nums,int s,int level){
+            if(level == nums.length) return s == 0 ? 1 : 0;
+            return dfs(nums,s - nums[level],level + 1) + dfs(nums,s + nums[level],level + 1);
+        }
+    }
+
+    class Solution2 {
+        public int findTargetSumWays(int[] nums, int S) {
+            if(nums == null || nums.length == 0){
+                return 0;
+            }
+            int sum = 0;
+            for(int num : nums){
+                sum += num;
+            }
+            int target = (sum - S) / 2;
+            if(sum < S || (sum - S) % 2 == 1){
+                return 0;
+            }
+            int[] dp = new int[target + 1];
+            dp[0] = 1;
+            for(int num : nums){
+                for(int j = target; j >= 0; j--){
+                    if(j >= num){
+                        dp[j] += dp[j - num];
+                    }
+                }
+            }
+            return dp[target];
+        }
+    }
 }

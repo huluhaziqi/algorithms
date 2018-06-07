@@ -3,7 +3,7 @@ package lin.java.test.algorithms.sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {4,1,1};
+        int[] array = {4,1,1,2};
         new QuickSort().quickSort2(array, 0, array.length - 1);
         for (int i : array) {
             System.out.println(i);
@@ -85,6 +85,40 @@ public class QuickSort {
             }
         }
         return left;
+    }
+
+    public void quickSort4(int[] array, int start, int end) {
+        if (start >= end) {
+            return;
+        }
+        int index = partion3(array, start, end);
+        if(index != -1) {
+            quickSort(array, start, index - 1);
+            quickSort(array, index + 1, end);
+        }
+    }
+
+    public int partion3(int[] array, int start, int end) {
+        if (start >= end) {
+            return -1;
+        }
+        int l = start + 1;
+        int r = end;
+        while (l <= r) {
+            while (l <= r && array[r] >= array[start]) {
+                r--;
+            }
+            while (l <= r && array[l] <= array[start]) {
+                l++;
+            }
+            if (l < r) {
+                swap(array, r, l);
+                l++;
+                r--;
+            }
+        }
+        swap(array, start, r);
+        return r;
     }
 
 }

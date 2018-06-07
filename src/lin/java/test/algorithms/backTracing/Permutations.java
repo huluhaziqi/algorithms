@@ -74,4 +74,34 @@ public class Permutations {
         }
     }
 
+    class Solution {
+        public List<List<Integer>> permute(int[] nums) {
+            if(nums == null || nums.length == 0){
+                return new ArrayList<>();
+            }
+            int len = nums.length;
+            boolean[] visited = new boolean[len];
+            List<List<Integer>> ret = new ArrayList<>();
+            backTracing(nums,new ArrayList<>(),visited,ret);
+            return ret;
+        }
+
+        void backTracing(int[] nums,List<Integer> value, boolean[] visited, List<List<Integer>> ret){
+            if(value.size() == nums.length){
+                ret.add(new ArrayList<>(value));
+                return;
+            }
+            for(int i = 0; i < nums.length;i++){
+                if(visited[i]){
+                    continue;
+                }
+                visited[i] = true;
+                value.add(nums[i]);
+                backTracing(nums,value,visited,ret);
+                value.remove(value.size() - 1);
+                visited[i] = false;
+            }
+        }
+    }
+
 }

@@ -32,4 +32,33 @@ public class OnesAndZeros {
         }
         return dp[m][n];
     }
+
+    class Solution {
+        public int findMaxForm(String[] strs, int m, int n) {
+            if(strs == null || strs.length == 0){
+                return 0;
+            }
+            int[][] dp = new int[m + 1][n + 1];
+            for(String s : strs){
+                int len = s.length();
+                int zeros = 0;
+                int ones = 0;
+                for(int i = 0; i < len ;i++){
+                    if(s.charAt(i) == '0'){
+                        zeros++;
+                    }else if (s.charAt(i) == '1'){
+                        ones++;
+                    }
+                }
+                for(int i = m; i>= 0; i--){
+                    for(int j = n; j >= 0 ;j--){
+                        if(i >= zeros && j >= ones){
+                            dp[i][j] = Math.max(dp[i][j],dp[i - zeros][j - ones] + 1);
+                        }
+                    }
+                }
+            }
+            return dp[m][n];
+        }
+    }
 }

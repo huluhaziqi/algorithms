@@ -80,4 +80,24 @@ public class WordBreak {
         }
         return dp[len];
     }
+
+    class Solution {
+        public boolean wordBreak(String s, List<String> wordDict) {
+            if(s == null || s.length() == 0 || wordDict == null || wordDict.size() == 0){
+                return false;
+            }
+            int len = s.length();
+            boolean[] dp = new boolean[len + 1];
+            dp[0] = true;
+            for(int j = 1; j<= len; j++){
+                for(String word : wordDict){
+                    int wordSize = word.length();
+                    if(j >= wordSize && s.substring(j - wordSize,j).equals(word)){
+                        dp[j] = dp[j] || dp[j - wordSize];
+                    }
+                }
+            }
+            return dp[len];
+        }
+    }
 }
