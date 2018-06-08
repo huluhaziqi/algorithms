@@ -19,6 +19,12 @@ public class Client {
 
         invoker.onButtonPush(0);
         invoker.offButtonPush(0);
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        };
 
     }
 }
