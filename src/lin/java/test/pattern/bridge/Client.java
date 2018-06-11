@@ -2,6 +2,7 @@ package lin.java.test.pattern.bridge;
 
 public class Client {
     public static void main(String[] args) {
+        //将抽象和实现分离开来，将遥控器和电视分离开，可以单独改变遥控器或者电视的实现
         TV1 tv1 = new TV1();
         TV2 tv2 = new TV2();
         Controller1 controller1 = new Controller1(tv1);
