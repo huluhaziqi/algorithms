@@ -7,7 +7,7 @@ public class RadixSort {
 
     public static void main(String[] args) {
         int[] array = {3, 4, 5, 7, 2, 1, 67, 8, 3, 4, 5, 0};
-        new RadixSort().radixSort(array);
+        new RadixSort().radixSort2(array);
         for (int i : array) {
             System.out.println(i);
         }
@@ -50,4 +50,42 @@ public class RadixSort {
             base *= 10;
         }
     }
+
+    public void radixSort2(int[] array) {
+        if (array == null || array.length == 0) {
+            return;
+        }
+        int len = array.length;
+        int max = array[0];
+        for (int i : array) {
+            if (max < i) {
+                max = i;
+            }
+        }
+        int maxLen = 0;
+        while (max > 0) {
+            maxLen++;
+            max /= 10;
+        }
+        List<List<Integer>> list = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            list.add(new ArrayList<>());
+        }
+        int base = 10;
+        while ((maxLen--) > 0) {
+            for (int a : array) {
+                int index = (a % base) / (base / 10);
+                list.get(index).add(a);
+            }
+            int c = 0;
+            for (List<Integer> l : list) {
+                for (int i : l) {
+                    array[c++] = i;
+                }
+                l.clear();
+            }
+            base *=10;
+        }
+    }
+
 }
