@@ -11,6 +11,12 @@ public class SurroundedRegions {
                 'O', 'X', 'O', 'X', 'O', 'X'}
         };
         new SurroundedRegions().solve(board);
+        for(char[] c : board){
+            for(char t : c){
+                System.out.print(t + " ");
+            }
+            System.out.println();
+        }
     }
 
     public void solve2(char[][] board) {
@@ -62,10 +68,10 @@ public class SurroundedRegions {
         }
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[0].length ;j++){
-                if(board[i][j] == '0'){
+                if(board[i][j] == 'O'){
                     board[i][j] = 'X';
                 } else  if (board[i][j] == 'T'){
-                    board[i][j] = '0';
+                    board[i][j] = 'O';
                 }
             }
         }
@@ -73,12 +79,12 @@ public class SurroundedRegions {
 
     public void dfs(char[][] board,int i, int j){
         if(board == null || board.length == 0 || i < 0 || i >= board.length||
-                j < 0 || j >= board[0].length || board[i][j] != '0'){
+                j < 0 || j >= board[0].length || board[i][j] != 'O'){
             return;
         }
         board[i][j] = 'T';
         for(int[] d : direct){
-            dfs2(board,i + d[0],j + d[1]);
+            dfs(board,i + d[0],j + d[1]);
         }
     }
 

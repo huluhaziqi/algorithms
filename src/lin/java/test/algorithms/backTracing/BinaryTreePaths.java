@@ -12,7 +12,7 @@ public class BinaryTreePaths {
         root.right = right;
         root.left = left;
         left.right = new TreeNode(5);
-        List<String> result = new BinaryTreePaths().binaryTreePaths(root);
+        List<String> result = new BinaryTreePaths().binaryTreePaths2(root);
         for(String s:result){
             System.out.println(s);
         }
@@ -82,6 +82,42 @@ public class BinaryTreePaths {
         TreeNode(int x) {
             val = x;
         }
+    }
+
+    public List<String> binaryTreePaths2(TreeNode root) {
+        if(root == null){
+            return new ArrayList<>();
+        }
+        List<List<String>> ret = new ArrayList<>();
+        dfs(root,ret,new ArrayList<>());
+        List<String> result = new ArrayList<>();
+        for(List<String> r : ret){
+            String tem = "";
+            int i = 0;
+            for(String s : r){
+                if(i == 0){
+                    tem += s;
+                }else {
+                    tem += "->" + s;
+                }
+                i++;
+            }
+            result.add(tem);
+        }
+        return result;
+    }
+    public void dfs(TreeNode root,List<List<String>> ret,List<String> list){
+        if(root == null){
+            return;
+        }
+        list.add(String.valueOf(root.val));
+        if(root.right == null && root.left == null){
+            ret.add(new ArrayList<>(list));
+            return;
+        }
+        dfs(root.left,ret,list);
+        dfs(root.right,ret,list);
+//        list.remove(list.size() - 1);
     }
 
 }
