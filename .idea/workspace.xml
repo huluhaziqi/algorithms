@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="" />
+    <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../algorithms/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +57,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution06.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution06.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution06.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution07.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution07.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution08.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution08.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution09.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution09.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -75,38 +117,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumTarget.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/tree/SumTarget.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckCompleteTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/tree/CheckCompleteTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="89" lean-forward="false" selection-start-line="4" selection-start-column="89" selection-end-line="4" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution03.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution03.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,16 +126,6 @@
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="4" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -204,10 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lin/java/test/pattern/composite/Component.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/pattern/composite/Leaf.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/pattern/composite/Client.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/pattern/composite/Coposite.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/pattern/decorator/Beverage.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/pattern/decorator/DarkRoast.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/pattern/decorator/HouseBlend.java" />
@@ -255,6 +251,10 @@
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution4.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution05.java" />
         <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution06.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution07.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution08.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution09.java" />
+        <option value="$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution10.java" />
       </list>
     </option>
   </component>
@@ -638,12 +638,12 @@
       <workItem from="1529215816265" duration="610000" />
       <workItem from="1529220515754" duration="2569000" />
       <workItem from="1529378256936" duration="5816000" />
-      <workItem from="1529461924863" duration="12017000" />
+      <workItem from="1529461924863" duration="13426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424051000" />
+    <option name="totallyTimeSpent" value="425460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="824" extended-state="0" />
@@ -667,7 +667,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50282484" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42231637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42231637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23559077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1200,34 +1200,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/pattern/proxy/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1474,7 +1446,7 @@
         <state relative-caret-position="234">
           <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1484,7 +1456,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1502,7 +1474,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="18" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1614,6 +1586,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution09.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms/src/lin/java/test/algorithms/jianzhioffer/Solution10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
