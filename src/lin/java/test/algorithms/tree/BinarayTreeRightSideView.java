@@ -32,4 +32,33 @@ public class BinarayTreeRightSideView {
             return list;
         }
     }
+
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(2);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(4);
+        root.right.right = new TreeNode(5);
+        root.right.left = new TreeNode(4);
+        root.right.left.right = new TreeNode(8);
+        root.right.left.left = new TreeNode(7);
+        root.right.left.left.right = new TreeNode(10);
+        root.right.left.left.left = new TreeNode(7);
+
+        List<Integer> list = new BinarayTreeRightSideView().rightSideView(root);
+    }
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        getRightView(root, 0, result);
+        return result;
+    }
+
+    public void getRightView(TreeNode root, int currentDepth, List<Integer> result){
+        if(root==null)
+            return;
+        if(currentDepth == result.size()){
+            result.add(root.val);
+        }
+        getRightView(root.right, currentDepth + 1, result);
+        getRightView(root.left, currentDepth + 1, result);
+    }
 }

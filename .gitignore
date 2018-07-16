@@ -4,7 +4,7 @@ out/
 .project
 .settings/
 target/
-
+.vscode
 *.iml
 *.class
 *.swp
