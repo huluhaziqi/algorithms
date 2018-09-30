@@ -40,7 +40,7 @@ public class PreOrder {
                     stack.push(tem.left);
                 }
             }
-            return result;
+                         return result;
         }
     }
 }

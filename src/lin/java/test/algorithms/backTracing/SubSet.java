@@ -6,7 +6,7 @@ import java.util.List;
 public class SubSet {
 
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3};
+        int[] nums = {1, 2, 3,4};
         List<List<Integer>> result = new SubSet().subsets(nums);
         result.forEach(o->{
             o.forEach(p-> System.out.print(p + " "));
@@ -31,5 +31,10 @@ public class SubSet {
             value.remove(value.size() - 1);
         }
     }
+
+//    public List<List<Integer>> subsets2(int[] nums){
+//        List<List<Integer>> result = new ArrayList<>();
+//        return result;
+//    }
 
 }

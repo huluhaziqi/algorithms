@@ -98,6 +98,10 @@ public class HeapSort {
         }
     }
 
+    void max_heapify(int[] array){
+        if(array == null){
 
+        }
+    }
 
 }

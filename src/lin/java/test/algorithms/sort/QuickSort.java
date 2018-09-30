@@ -3,8 +3,8 @@ package lin.java.test.algorithms.sort;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] array = {4,1,1,2};
-        new QuickSort().quickSort2(array, 0, array.length - 1);
+        int[] array = {6,5,4,10,20,1,1,21,1,0,1,1,1,0};
+        new QuickSort().quickSort4(array, 0, array.length - 1);
         for (int i : array) {
             System.out.println(i);
         }
@@ -84,6 +84,7 @@ public class QuickSort {
                 right--;
             }
         }
+        swap(array,start,left);
         return left;
     }
 

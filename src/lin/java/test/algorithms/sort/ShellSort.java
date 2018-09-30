@@ -3,7 +3,7 @@ package lin.java.test.algorithms.sort;
 public class ShellSort {
     public static void main(String[] args) {
         int[] array = {3, 4, 1, 0};
-        new ShellSort().shellSort4(array);
+        new ShellSort().shellSort5(array);
         for (int i : array) {
             System.out.println(i);
         }
@@ -80,6 +80,24 @@ public class ShellSort {
                     } else break;
                 }
                 nums[j + h] = tem;
+            }
+            h = h / 2;
+        }
+    }
+
+    public void shellSort5(int[] num){
+        int len = num.length;
+        int h = len / 2;
+        while ( h >=1){
+            for(int i = h; i < len; i++){
+                int tem = num[i];
+                int j = i - h;
+                for(;j >= 0; j -= h){
+                    if(num[j] > tem){
+                        num[j + h] = num[j];
+                    }else break;
+                }
+                num[j + h] = tem;
             }
             h = h / 2;
         }

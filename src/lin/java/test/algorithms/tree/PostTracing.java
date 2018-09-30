@@ -21,7 +21,7 @@ public class PostTracing {
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
         List<Integer> result = new Solution().postorderTraversal(root);
-        result.forEach(o->{
+        result.forEach(o -> {
             System.out.println(o);
         });
     }
@@ -60,6 +60,17 @@ public class PostTracing {
                 }
             }
             return list;
+        }
+
+        public List<Integer> postOrder2(TreeNode node) {
+            if (node == null) {
+                return null;
+            }
+            List<Integer> result = new ArrayList<Integer>();
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode lastVisit = null;
+//
+            return null;
         }
     }
 }

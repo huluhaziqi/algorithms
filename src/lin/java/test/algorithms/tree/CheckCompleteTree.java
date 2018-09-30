@@ -1,6 +1,7 @@
 package lin.java.test.algorithms.tree;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 public class CheckCompleteTree {
 
@@ -15,7 +16,7 @@ public class CheckCompleteTree {
         LinkedList<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            TreeNode top = queue.getFirst();
+            TreeNode top = queue.pollFirst();
             if (!judge(top.left, queue)) {
                 return false;
             }
@@ -23,12 +24,13 @@ public class CheckCompleteTree {
                 return false;
             }
         }
+
         return true;
     }
 
     boolean last = false;
 
-    boolean judge(TreeNode child, LinkedList linkedList) {
+    boolean judge(TreeNode child, Queue linkedList) {
         if (child != null) {
             if (!last) {
                 linkedList.add(child);
@@ -51,4 +53,5 @@ public class CheckCompleteTree {
             val = x;
         }
     }
+
 }

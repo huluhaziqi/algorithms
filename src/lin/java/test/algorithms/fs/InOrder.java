@@ -9,7 +9,7 @@ public class InOrder {
         root.right = new TreeNode(2);
         root.right.left = new TreeNode(3);
         List<Integer> result = new InOrder().inorderTraversal(root);
-        result.forEach(o->{
+        result.forEach(o -> {
             System.out.print(o + " ");
         });
     }
@@ -36,9 +36,29 @@ public class InOrder {
                 root = root.left;
             }
             TreeNode node = stack.pop();
-            result.add(node.val);
-            if (node.right != null) {
-                stack.push(node.right);
+            if (node != null) {
+                result.add(node.val);
+                root = node.right;
+            }
+        }
+        return result;
+    }
+
+    public List<Integer> inorder2(TreeNode root) {
+        if(root == null){
+            return null;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        List<Integer> result = new ArrayList<>();
+        while (root != null || !stack.isEmpty()){
+            while (root != null){
+                stack.push(root);
+                root = root.left;
+            }
+            TreeNode node = stack.pop();
+            if(node != null){
+                result.add(node.val);
+                root = node.right;
             }
         }
         return result;

@@ -16,7 +16,7 @@ public class InsertSort {
 //    }
     public static void main(String[] args) {
         int[] array = {3, 4, 5, 7, 2, 1, 67, 8, 3, 4, 5, 0};
-        new InsertSort().insertSort3(array);
+        new InsertSort().insertSort4(array);
         for (int i : array) {
             System.out.println(i);
         }
@@ -90,6 +90,23 @@ public class InsertSort {
             return;
         }
         for (int i = 1; i < array.length; i++) {
+            int tem = array[i];
+            int j = i - 1;
+            for (; j >= 0; j--) {
+                if (array[j] > tem) {
+                    array[j + 1] = array[j];
+                } else break;
+            }
+            array[j + 1] = tem;
+        }
+    }
+
+    public void insertSort4(int[] array) {
+        if (array == null || array.length == 0) {
+            return;
+        }
+        int length = array.length;
+        for (int i = 1; i < length; i++) {
             int tem = array[i];
             int j = i - 1;
             for (; j >= 0; j--) {

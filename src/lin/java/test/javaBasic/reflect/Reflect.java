@@ -13,5 +13,6 @@ public class Reflect {
         if(cls3 == cls2) {
             System.out.println(true);
         }
+        System.out.println(args[0]);
     }
 }

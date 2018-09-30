@@ -37,4 +37,8 @@ public class MergeSort {
             mergeSort(array, mid + 1, end);
             merge(array, start, mid, end);
     }
+
+    public void merge2(int[] array,int start, int mid ,int end){
+
+    }
 }
