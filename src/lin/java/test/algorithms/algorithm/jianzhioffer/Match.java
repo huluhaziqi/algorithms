@@ -2,52 +2,40 @@ package lin.java.test.algorithms.algorithm.jianzhioffer;
 
 public class Match {
     public static void main(String[] args) {
-
+        Solution solution = new Solution();
+        boolean result = solution.match("".toCharArray(),".*".toCharArray());
+        System.out.println(result);
     }
 
-    public class Solution {
-        public boolean match(char[] str, char[] pattern) {
-            return judge(str, pattern);
-        }
-
-        public boolean judge(char[] str, char[] pattern) {
-            if (str == null && pattern == null) {
-                return true;
-            }
-            if (str == null || pattern == null) {
+    public static class Solution {
+        public boolean match(char[] str, char[] pattern)
+        {
+            if(str == null || pattern == null){
                 return false;
             }
-            int lenP = pattern.length;
-            int i = 0;
-            int j = 0;
-            while (i < str.length && j < pattern.length) {
-                if (str[i] == pattern[j]) {
-                    i++;
-                    j++;
-                } else if (str[i] != pattern[j]) {
-                    if (pattern[j] == '.') {
-                        i++;
-                        j++;
-                    } else if (pattern[j] == '*') {
-                        if (j > 0 && (pattern[j - 1] == str[i] || pattern[j - 1] == '.')) {
-                            i++;
-                        } else {
-                            return false;
-                        }
-                    } else {
-                        return false;
-                    }
-                }
-            }
-            if (i == str.length && j == pattern.length) {
+            return  matchJudge(str,pattern,0,0);
+        }
+
+        public boolean matchJudge(char[] str, char[] pattern, int start1, int start2 ){
+            if(start1 == str.length && start2 == pattern.length){
                 return true;
             }
-            if (i == str.length && j == pattern.length - 1) {
-                if ((str[i - 1] == pattern[j - 1] || pattern[i - 1] == '.') && pattern[j] == '*') {
-                    return true;
+            if(start1 != str.length && start2 == pattern.length){
+                return false;
+            }
+            if(start2 + 1 < pattern.length && pattern[start2 + 1] == '*'){
+                if((start1 < str.length && pattern[start2] == str[start1]) || pattern[start2] == '.'){
+                    return matchJudge(str,pattern,start1 + 1,start2 + 2) ||
+                            matchJudge(str,pattern,start1 + 1,start2) ||
+                            matchJudge(str,pattern,start1,start2 + 2);
+                }else {
+                    return matchJudge(str,pattern,start1,start2 + 2);
                 }
             }
 
+            if(start1 < str.length && (str[start1] == pattern[start2] || pattern[start2] == '.')){
+                return matchJudge(str,pattern,start1 + 1,start2 + 1);
+            }
             return false;
         }
     }
