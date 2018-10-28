@@ -11,6 +11,7 @@ public class Client {
             URL url = new URL(image);
             HighResolutionImage highResolutionImage = new HighResolutionImage(url);
             Proxy proxy = new Proxy(highResolutionImage);
+//            Concu
             proxy.showImage();
         } catch (MalformedURLException e) {
             e.printStackTrace();
