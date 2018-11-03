@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96e17ca3-017b-4050-b188-e2407ef4d781" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/LeetCode14.java" afterPath="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/LeetCode14.java" />
-      <change beforePath="$PROJECT_DIR$/src/lin/java/test/io/IoTest01.java" afterPath="$PROJECT_DIR$/src/lin/java/test/io/IoTest01.java" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" afterPath="$PROJECT_DIR$/.vscode/launch.json" />
+      <change beforePath="$PROJECT_DIR$/1.txt" afterPath="$PROJECT_DIR$/1.txt" />
+      <change beforePath="$PROJECT_DIR$/src/1.txt" afterPath="$PROJECT_DIR$/src/1.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,36 +23,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TestJDBC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lin/java/test/sql/TestJDBC.java">
+      <file leaf-file-name="FileChannelTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/FileChannelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="25" column="76" lean-forward="false" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+            <state relative-caret-position="170">
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="31" />
               <folding>
-                <marker date="1540137245814" expanded="true" signature="896:936" ph="select * fro... account" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IoTest01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/IoTest01.java">
+      <file leaf-file-name="ClientTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/ClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="237">
+              <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/ServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerSocketChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="268" column="33" lean-forward="false" selection-start-line="268" selection-start-column="20" selection-end-line="268" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileChannelTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/FileChannelTest.java">
+      <file leaf-file-name="SocketChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/nio/channels/SocketChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="219">
+              <caret line="466" column="23" lean-forward="false" selection-start-line="466" selection-start-column="20" selection-end-line="466" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,20 +125,6 @@
             <state relative-caret-position="151">
               <caret line="347" column="23" lean-forward="false" selection-start-line="347" selection-start-column="20" selection-end-line="347" selection-end-column="23" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9554">
-              <caret line="610" column="18" lean-forward="false" selection-start-line="610" selection-start-column="18" selection-end-line="610" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#25460#0" expanded="true" />
-                <element signature="e#11620#11621#0" expanded="true" />
-                <element signature="e#11678#11679#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -194,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lin/java/test/springTest/BeanFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/jianzhioffer/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/jianzhioffer/NumberOf1.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/jianzhioffer/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/jianzhioffer/IsPopOrder.java" />
@@ -243,8 +250,10 @@
         <option value="$PROJECT_DIR$/src/lin/java/test/algorithms/algorithm/LeetCode14.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/jvm/XssTest.java" />
         <option value="$PROJECT_DIR$/src/lin/java/test/io/IoTest01.java" />
-        <option value="$PROJECT_DIR$/src/lin/java/test/io/FileChannelTest.java" />
         <option value="$PROJECT_DIR$/src/1.txt" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/io/FileChannelTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/io/ServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/java/test/io/ClientTest.java" />
       </list>
     </option>
   </component>
@@ -262,9 +271,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="483" />
-    <option name="y" value="336" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="26" />
+    <option name="y" value="35" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
   </component>
@@ -364,12 +373,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileChannelTest">
+  <component name="RunManager" selected="Application.ClientTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lin.java.test.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.io.ClientTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms" />
+      <envs />
     </configuration>
     <configuration name="FileChannelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -409,25 +437,6 @@
       <module name="algorithms" />
       <envs />
     </configuration>
-    <configuration name="ImplStrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lin.java.test.algorithms.kmp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.algorithms.kmp.ImplStrStr" />
-      <option name="VM_PARAMETERS" value="-Xss1m" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithms" />
-      <envs />
-    </configuration>
     <configuration name="IoTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +445,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="lin.java.test.io.IoTest01" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lin.java.test.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="lin.java.test.io.ServiceTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -478,25 +506,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <envs />
-    </configuration>
-    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lin.java.test.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lin.java.test.test.a" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithms" />
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -561,19 +570,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.GcDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.a" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ImplStrStr" />
-      <item index="3" class="java.lang.String" itemvalue="Application.XssTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.IoTest01" />
-      <item index="5" class="java.lang.String" itemvalue="Application.FileChannelTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.XssTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IoTest01" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FileChannelTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ServiceTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ClientTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FileChannelTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IoTest01" />
-        <item index="2" class="java.lang.String" itemvalue="Application.XssTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ImplStrStr" />
-        <item index="4" class="java.lang.String" itemvalue="Application.a" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ClientTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FileChannelTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.IoTest01" />
+        <item index="4" class="java.lang.String" itemvalue="Application.XssTest" />
       </list>
     </recent_temporary>
   </component>
@@ -667,15 +676,15 @@
       <workItem from="1540300189901" duration="31751000" />
       <workItem from="1540979777043" duration="2343000" />
       <workItem from="1540984445644" duration="9921000" />
-      <workItem from="1541248269789" duration="3167000" />
+      <workItem from="1541248269789" duration="5662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="706426000" />
+    <option name="totallyTimeSpent" value="708921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="483" y="336" width="1440" height="824" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,11 +703,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.509887" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5084746" sideWeight="0.49711815" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3559322" sideWeight="0.49711815" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16930836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16930836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1626,8 +1635,14 @@
           <properties />
           <option name="timeStamp" value="245" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lin/java/test/io/ClientTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="246" />
+      <option name="time" value="247" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1647,34 +1662,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="137" column="21" lean-forward="false" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/PreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15028">
-          <caret line="923" column="36" lean-forward="false" selection-start-line="923" selection-start-column="36" selection-end-line="923" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.6.jar!/com/mysql/jdbc/ConnectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23681">
-          <caret line="1437" column="33" lean-forward="false" selection-start-line="1437" selection-start-column="16" selection-end-line="1437" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lin/java/test/pattern/single/Single3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -2052,8 +2039,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/FileChannelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="268" column="33" lean-forward="false" selection-start-line="268" selection-start-column="20" selection-end-line="268" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/nio/channels/SocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="466" column="23" lean-forward="false" selection-start-line="466" selection-start-column="20" selection-end-line="466" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/ServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/java/test/io/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
