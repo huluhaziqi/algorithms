@@ -1,5 +1,7 @@
 package lin.java.test.algorithms.algorithm;
 
+import java.util.Arrays;
+
 public class LeetCode14 {
 }
 
@@ -47,5 +49,22 @@ class Solution14 {
             }
         }
         return pre;
+    }
+
+    public String longestCommonPrefix3(String[] strs) {
+        if(strs == null || strs.length == 0){
+            return "";
+        }
+        Arrays.sort(strs);
+        StringBuilder sb = new StringBuilder();
+        int n = Math.min(strs[0].length(),strs[strs.length - 1].length());
+        for(int i = 0; i < n; i++){
+            if(strs[0].charAt(i) == strs[strs.length - 1].charAt(i)){
+                sb.append(strs[0].charAt(i));
+            }else{
+                break;
+            }
+        }
+        return sb.toString();
     }
 }
