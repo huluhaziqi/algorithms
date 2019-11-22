@@ -4,10 +4,10 @@ out/
 .project
 .settings/
 target/
+.vscode/
 .vscode
 *.iml
 *.class
-
 *.swp
 *~
 ### Java template
@@ -15,6 +15,7 @@ target/
 
 # Log file
 *.log
+.txt
 
 # BlueJ files
 *.ctxt
