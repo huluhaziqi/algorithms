@@ -56,4 +56,44 @@ public class ReConstructBinartTree {
         }
         return -1;
     }
+
+    public class Solution {
+    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+        if(pre == null || in == null || pre.length == 0 || in.length == 0 ){
+            return null;
+        }
+        return reConstruct(pre,0, pre.length - 1, in , 0, in.length -1);
+    }
+    
+    public TreeNode reConstruct(int[] pre, int l1, int r1, int[] in, int l2, int r2){
+        if(l1 > r1){
+            return null;
+        }
+        if(l1 == r1){
+            return new TreeNode(pre[l1]);
+        }
+        TreeNode root = new TreeNode(pre[l1]);
+        int index = getIndex(in, l2, r2 , pre[l1]);
+        if(index == -1){
+            return null;
+        }
+        int len1 = index - l2;
+        root.left = reConstruct(pre, l1 + 1, len1 + l1, in, l2, l2 + len1 - 1 );
+        root.right = reConstruct(pre, len1 +l1 + 1, r1, in , index +1, r2);
+        return root;
+    }
+    
+    
+    public int getIndex(int[] in, int l, int r, int target){
+        if(in == null || in.length == 0 || l > r){
+            return -1;
+        }
+        for(int i = l; i <= r; i++){
+            if(in[i] == target){
+                return i;
+            }
+        }
+        return -1;
+    }
+}
 }

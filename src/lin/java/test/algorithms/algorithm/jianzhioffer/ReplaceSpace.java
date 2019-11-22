@@ -19,6 +19,25 @@ public class ReplaceSpace {
         }
     }
 
+    public class Solution2 {
+    public String replaceSpace(StringBuffer str) {
+    	if(str == null || str.length() == 0){
+            return "";
+        }
+       
+        StringBuilder sb = new StringBuilder();
+        char[] chars = str.toString().toCharArray();
+            for(char c : chars){
+                if(c == ' '){
+                    sb.append("%20");
+                }else {
+                    sb.append(c);
+                }
+            }
+            return sb.toString();
+    }
+}
+
     public static void main(String[] args) {
 
     }

@@ -52,4 +52,28 @@ public class ReverseList {
         return result;
     }
 
+    public class Solution2 {
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+        if(listNode == null){
+            return new ArrayList<>();
+        }
+        ArrayList<Integer> result = new ArrayList<>();
+        ListNode first = new ListNode(0);
+        while(listNode != null){
+           
+            ListNode next = first.next;
+            ListNode temp = listNode;
+             listNode = listNode.next;
+            first.next = temp;
+            temp.next = next;
+            
+        }
+        while(first.next != null){
+            result.add(first.next.val);
+            first = first.next;
+        }
+        return result;
+    }
+}
+
 }
