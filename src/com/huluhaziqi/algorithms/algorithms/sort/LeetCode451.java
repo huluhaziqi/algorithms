@@ -7,6 +7,18 @@ import java.util.Map;
 
 public class LeetCode451 {
 
+    //451. Sort Characters By Frequency (Medium)
+    //
+    //
+    //Input:
+    //"tree"
+    //
+    //Output:
+    //"eert"
+    //
+    //Explanation:
+    //'e' appears twice while 'r' and 't' both appear once.
+    //So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
     class Solution {
         public String frequencySort(String s) {
             if (s == null || s.length() == 0) {
