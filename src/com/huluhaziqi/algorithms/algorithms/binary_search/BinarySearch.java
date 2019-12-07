@@ -111,7 +111,7 @@ public class BinarySearch {
     public int binarySearchLast(int array[], int target) {
         int l = 0;
         int r = array.length - 1;
-        while ((l <= r)) {
+        while ((l < r)) {
             int mid = l + (r - l) / 2;
             ;
             if (array[mid] <= target) {
