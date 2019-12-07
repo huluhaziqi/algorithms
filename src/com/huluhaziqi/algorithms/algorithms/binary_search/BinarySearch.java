@@ -3,8 +3,12 @@ package com.huluhaziqi.algorithms.algorithms.binary_search;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int nums[] = {5,7,7,8,8,10};
-        int result = new BinarySearch().binarySearch2(nums, 8);
+        int nums[] = {5, 7, 7, 8, 8, 8, 9, 9, 9, 10};
+        int result = new BinarySearch().binarySearch4(nums, 8);
+        System.out.println(result);
+        result = new BinarySearch().binarySearchFirst(nums, 8);
+        System.out.println(result);
+        result = new BinarySearch().binarySearchLast(nums, 8);
         System.out.println(result);
 
     }
@@ -34,9 +38,9 @@ public class BinarySearch {
         int r = array.length - 1;
         int mid = l + (r - l) / 2;
         while (l < r) {
-            if(array[mid] <= target){
+            if (array[mid] <= target) {
                 l = mid;
-            }else {
+            } else {
                 r = mid - 1;
             }
             mid = l + (r - l) / 2;
@@ -47,11 +51,72 @@ public class BinarySearch {
     public int binarySearch3(int[] array, int target) {
         int l = 0;
         int r = array.length - 1;
-        while (l  <= r) {
+        while (l <= r) {
             int mid = (r + l) / 2;
-            if(array[mid] <= target){
+            if (array[mid] <= target) {
                 l = mid + 1;
-            }else {
+            } else {
+                r = mid - 1;
+            }
+        }
+        return l;
+    }
+
+    public int binarySearch4(int array[], int target) {
+        int l = 0;
+        int r = array.length - 1;
+        while ((l <= r)) {
+            int mid = (l + r) / 2;
+            ;
+            if (array[mid] == target) {
+                return mid;
+            } else if (array[mid] > target) {
+                r = mid - 1;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * return fist target or if not find target return the insert index
+     *
+     * @param array
+     * @param target
+     * @return
+     */
+    public int binarySearchFirst(int array[], int target) {
+        int l = 0;
+        int r = array.length - 1;
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            ;
+            if (array[mid] >= target) {
+                r = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
+
+    /**
+     * find the last target index
+     *
+     * @param array
+     * @param target
+     * @return
+     */
+    public int binarySearchLast(int array[], int target) {
+        int l = 0;
+        int r = array.length - 1;
+        while ((l <= r)) {
+            int mid = l + (r - l) / 2;
+            ;
+            if (array[mid] <= target) {
+                l = mid + 1;
+            } else {
                 r = mid - 1;
             }
         }
