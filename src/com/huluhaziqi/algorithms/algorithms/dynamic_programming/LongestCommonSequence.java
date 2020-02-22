@@ -79,6 +79,8 @@ public class LongestCommonSequence {
                     dp[0][i] = dp[0][i - 1];
                 }
             }
+            String s = new String();
+            char x = s.charAt(0);
             for (int i = 1; i < len1; i++) {
                 if (text1.charAt(i) == text2.charAt(0)) {
                     dp[i][0] = 1;

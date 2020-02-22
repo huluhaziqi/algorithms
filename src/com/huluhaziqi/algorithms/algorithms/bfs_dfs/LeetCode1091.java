@@ -19,7 +19,6 @@ public class LeetCode1091 {
             if (grid == null || grid.length == 0 || grid[0].length == 0 || grid[0][0] == 1) {
                 return -1;
             }
-
             int[][] directions = {{1, -1}, {1, 0}, {1, 1}, {0, -1}, {0, 1}, {-1, -1}, {-1, 0}, {-1, 1}};
             int len = grid.length;
             int rowLen = grid[0].length;
