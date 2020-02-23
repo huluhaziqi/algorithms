@@ -17,7 +17,7 @@ public class WordLadder {
         wordList.add("lot");
         wordList.add("log");
         wordList.add("cog");
-        int result = new WordLadder().ladderLength(begin,end,wordList);
+        int result = new WordLadder().ladderLength(begin, end, wordList);
         System.out.println(result);
 
     }
@@ -26,7 +26,7 @@ public class WordLadder {
         if (wordList == null || wordList.size() == 0) {
             return 0;
         }
-        if(!wordList.contains(endWord)){
+        if (!wordList.contains(endWord)) {
             return 0;
         }
         Queue<String> queue = new LinkedList<>();
@@ -67,5 +67,56 @@ public class WordLadder {
             }
         }
         return num == 1 ? true : false;
+    }
+
+
+    class Solution {
+        public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+
+            if (wordList == null || wordList.size() == 0 || !wordList.contains(endWord)) {
+                return 0;
+            }
+            int len = wordList.size();
+            boolean[] visited = new boolean[len];
+            Queue<String> queue = new LinkedList<>();
+            queue.offer(beginWord);
+            int index = 1;
+            while (!queue.isEmpty()) {
+                int size = queue.size();
+                while (size-- > 0) {
+                    String top = queue.poll();
+                    for (int i = 0; i < len; i++) {
+                        if (top.equals(endWord)) {
+                            return index;
+                        }
+                        if (visited[i]) {
+                            continue;
+                        }
+                        if (!checkDis(top, wordList.get(i))) {
+                            continue;
+                        }
+                        visited[i] = true;
+                        queue.offer(wordList.get(i));
+                    }
+                }
+                index++;
+            }
+            return 0;
+        }
+
+        boolean checkDis(String s1, String s2) {
+            int len = s1.length();
+            int count = 0;
+            for (int i = 0; i < len; i++) {
+                if (s1.charAt(i) != s2.charAt(i)) {
+                    count++;
+                    if (count > 1) {
+                        return false;
+                    }
+                }
+            }
+            return count == 1 ? true : false;
+        }
+
     }
 }
