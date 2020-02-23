@@ -37,10 +37,7 @@ public class LeetCode1091 {
                 while (size-- > 0) {
                     int[] top = queue.poll();
                     if (top[0] == row - 1 && top[1] == col - 1) {
-                        if (step < min) {
-                            min = step;
-                            step = 1;
-                        }
+                        return step;
                     }
                     for (int[] d : direction) {
                         int tem1 = top[0] + d[0];
@@ -54,11 +51,8 @@ public class LeetCode1091 {
                 }
                 step++;
             }
-            return min == Integer.MAX_VALUE ? -1 : min;
+            return -1;
         }
-
-        int min = Integer.MAX_VALUE;
-
 
     }
 
