@@ -6,9 +6,13 @@ import java.util.List;
 public class RestoreIpAddress {
 
     public static void main(String[] args) {
+//        String s = "25525511135";
+//        List<String> ip = new ArrayList<>();
+//        ip = new RestoreIpAddress().restoreIpAddresses(s);
+//        ip.forEach(o -> System.out.println(o));
         String s = "25525511135";
         List<String> ip = new ArrayList<>();
-        ip = new RestoreIpAddress().restoreIpAddresses(s);
+        ip = new Solution2().restoreIpAddresses(s);
         ip.forEach(o -> System.out.println(o));
     }
 
@@ -38,8 +42,80 @@ public class RestoreIpAddress {
                 level++;
                 System.out.println(prefix.toString());
                 combine(prefix, level, s, ret);
-                prefix.delete(prefix.length() - tem.length()- 1 , prefix.length());
+                prefix.delete(prefix.length() - tem.length() - 1, prefix.length());
                 level--;
+            }
+        }
+    }
+
+    static class Solution2 {
+        public List<String> restoreIpAddresses(String s) {
+            if (s == null || s.length() == 0) {
+                return ips;
+            }
+            backtracing(s, 0, 0, new StringBuilder());
+            return ips;
+        }
+
+        List<String> ips = new ArrayList<>();
+
+        void backtracing(String s, int index, int len, StringBuilder sb) {
+            if (index == 4 || len >= s.length()) {
+                if (index == 4 && len == s.length()) {
+                    ips.add(sb.substring(1, sb.length()));
+                }
+                return;
+
+            }
+            index++;
+            int tem = len;
+            for (int i = 0; i < 3 && tem + i + 1 <= s.length(); i++) {
+                String tem1 = s.substring(tem, tem + i + 1);
+                int value = Integer.parseInt(tem1);
+                if (value > 255 || value < 0) {
+                    continue;
+                }
+                len += (i + 1);
+                sb.append("." + s.substring(tem, tem + i + 1));
+                backtracing(s, index, len, sb);
+                sb.delete(sb.length() - i - 2, sb.length());
+                len -= i + 1;
+            }
+        }
+    }
+
+    class Solution {
+        public List<String> restoreIpAddresses(String s) {
+            if (s == null || s.length() == 0) {
+                return ips;
+            }
+            backtracing(s, 0, new StringBuilder());
+            return ips;
+        }
+
+        List<String> ips = new ArrayList<>();
+
+        void backtracing(String s, int index, StringBuilder sb) {
+            if (index == 4) {
+                if (0 == s.length()) {
+                    ips.add(sb.substring(1, sb.length()));
+                }
+                return;
+
+            }
+            index++;
+            for (int i = 0; i < 3 && i + 1 <= s.length(); i++) {
+                if (i != 0 && s.charAt(0) == '0') {
+                    continue;
+                }
+                String tem1 = s.substring(0, i + 1);
+                int value = Integer.parseInt(tem1);
+                if (value > 255 || value < 0) {
+                    continue;
+                }
+                sb.append("." + s.substring(0, i + 1));
+                backtracing(s.substring(i + 1), index, sb);
+                sb.delete(sb.length() - i - 2, sb.length());
             }
         }
     }
