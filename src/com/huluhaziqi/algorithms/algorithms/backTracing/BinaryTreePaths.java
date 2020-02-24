@@ -13,7 +13,7 @@ public class BinaryTreePaths {
         root.left = left;
         left.right = new TreeNode(5);
         List<String> result = new BinaryTreePaths().binaryTreePaths2(root);
-        for(String s:result){
+        for (String s : result) {
             System.out.println(s);
         }
 
@@ -25,7 +25,7 @@ public class BinaryTreePaths {
         return paths;
     }
 
-    public void backTracing(TreeNode root ,String value,List<String> paths){
+    public void backTracing(TreeNode root, String value, List<String> paths) {
         if (root == null) {
             return;
         }
@@ -85,19 +85,19 @@ public class BinaryTreePaths {
     }
 
     public List<String> binaryTreePaths2(TreeNode root) {
-        if(root == null){
+        if (root == null) {
             return new ArrayList<>();
         }
         List<List<String>> ret = new ArrayList<>();
-        dfs(root,ret,new ArrayList<>());
+        dfs(root, ret, new ArrayList<>());
         List<String> result = new ArrayList<>();
-        for(List<String> r : ret){
+        for (List<String> r : ret) {
             String tem = "";
             int i = 0;
-            for(String s : r){
-                if(i == 0){
+            for (String s : r) {
+                if (i == 0) {
                     tem += s;
-                }else {
+                } else {
                     tem += "->" + s;
                 }
                 i++;
@@ -106,18 +106,54 @@ public class BinaryTreePaths {
         }
         return result;
     }
-    public void dfs(TreeNode root,List<List<String>> ret,List<String> list){
-        if(root == null){
+
+    public void dfs(TreeNode root, List<List<String>> ret, List<String> list) {
+        if (root == null) {
             return;
         }
         list.add(String.valueOf(root.val));
-        if(root.right == null && root.left == null){
+        if (root.right == null && root.left == null) {
             ret.add(new ArrayList<>(list));
             return;
         }
-        dfs(root.left,ret,list);
-        dfs(root.right,ret,list);
+        dfs(root.left, ret, list);
+        dfs(root.right, ret, list);
 //        list.remove(list.size() - 1);
+    }
+
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     * int val;
+     * TreeNode left;
+     * TreeNode right;
+     * TreeNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        public List<String> binaryTreePaths(TreeNode root) {
+            List<String> result = new ArrayList<>();
+            if (root == null) {
+                return result;
+            }
+
+            dfs(root, "", result);
+            return result;
+        }
+
+        void dfs(TreeNode node, String out, List<String> result) {
+            if (node == null) {
+                return;
+            }
+            if (node.left == null && node.right == null) {
+                result.add(out + node.val);
+                return;
+            }
+            String tem = node.val + "->";
+            dfs(node.left, out + tem, result);
+            dfs(node.right, out + tem, result);
+        }
+
     }
 
 }
