@@ -5,6 +5,39 @@ import java.util.List;
 
 public class Permutations {
 
+    /**
+     * leetcode 46
+     * 46. Permutations
+     * Medium
+     * <p>
+     * 3078
+     * <p>
+     * 92
+     * <p>
+     * Add to List
+     * <p>
+     * Share
+     * Given a collection of distinct integers, return all possible permutations.
+     * <p>
+     * Example:
+     * <p>
+     * Input: [1,2,3]
+     * Output:
+     * [
+     * [1,2,3],
+     * [1,3,2],
+     * [2,1,3],
+     * [2,3,1],
+     * [3,1,2],
+     * [3,2,1]
+     * ]
+     * Accepted
+     * 517,408
+     * Submissions
+     * 858,109
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
         List<List<Integer>> result = new Permutations().permute2(nums);
@@ -76,29 +109,61 @@ public class Permutations {
 
     class Solution {
         public List<List<Integer>> permute(int[] nums) {
-            if(nums == null || nums.length == 0){
+            if (nums == null || nums.length == 0) {
                 return new ArrayList<>();
             }
             int len = nums.length;
             boolean[] visited = new boolean[len];
             List<List<Integer>> ret = new ArrayList<>();
-            backTracing(nums,new ArrayList<>(),visited,ret);
+            backTracing(nums, new ArrayList<>(), visited, ret);
             return ret;
         }
 
-        void backTracing(int[] nums,List<Integer> value, boolean[] visited, List<List<Integer>> ret){
-            if(value.size() == nums.length){
+        void backTracing(int[] nums, List<Integer> value, boolean[] visited, List<List<Integer>> ret) {
+            if (value.size() == nums.length) {
                 ret.add(new ArrayList<>(value));
                 return;
             }
-            for(int i = 0; i < nums.length;i++){
-                if(visited[i]){
+            for (int i = 0; i < nums.length; i++) {
+                if (visited[i]) {
                     continue;
                 }
                 visited[i] = true;
                 value.add(nums[i]);
-                backTracing(nums,value,visited,ret);
+                backTracing(nums, value, visited, ret);
                 value.remove(value.size() - 1);
+                visited[i] = false;
+            }
+        }
+    }
+
+    /**
+     * bug free 一把过
+     */
+    class Solution3 {
+        public List<List<Integer>> permute(int[] nums) {
+            List<List<Integer>> result = new ArrayList<>();
+            if (nums == null || nums.length == 0) {
+                return result;
+            }
+            boolean[] visited = new boolean[nums.length];
+            dfs(nums, new ArrayList<>(), result, visited);
+            return result;
+        }
+
+        void dfs(int[] nums, List<Integer> list, List<List<Integer>> result, boolean[] visited) {
+            if (list.size() == nums.length) {
+                result.add(new ArrayList<>(list));
+                return;
+            }
+            for (int i = 0; i < nums.length; i++) {
+                if (visited[i]) {
+                    continue;
+                }
+                visited[i] = true;
+                list.add(nums[i]);
+                dfs(nums, list, result, visited);
+                list.remove(list.size() - 1);
                 visited[i] = false;
             }
         }
