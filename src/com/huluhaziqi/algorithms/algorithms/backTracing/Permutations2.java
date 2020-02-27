@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class Permutations2 {
 
     public static void main(String[] args) {
-        int[] nums = {1,1,2, 2, 3};
+        int[] nums = {1,1,2};
         List<List<Integer>> result = new Permutations2().permuteUnique(nums);
         for (List<Integer> o : result) {
             for (int i : o) {
@@ -75,6 +75,39 @@ public class Permutations2 {
             backTracint(nums, value, visited, ret);
             value.remove(value.size() - 1);
             visited[i] = false;
+        }
+    }
+
+    class Solution {
+        public List<List<Integer>> permuteUnique(int[] nums) {
+            if(nums == null || nums.length == 0){
+                return new ArrayList<>();
+            }
+            Arrays.sort(nums);
+            boolean[] visited = new boolean[nums.length];
+            List<List<Integer>> result = new ArrayList<>();
+            dfs(nums,new ArrayList<>(),result,visited);
+            return result;
+        }
+
+        void dfs(int[] nums, List<Integer> list , List<List<Integer>> result, boolean[] visited){
+            if(list.size() == nums.length){
+                result.add(new ArrayList<>(list));
+                return;
+            }
+            for(int i = 0; i < nums.length; i++){
+                if(i > 0 && nums[i] == nums[i - 1] && visited[i - 1]){
+                    continue;
+                }
+                if(visited[i] == true){
+                    continue;
+                }
+                visited[i] = true;
+                list.add(nums[i]);
+                dfs(nums,list,result,visited);
+                list.remove(list.size() - 1);
+                visited[i] = false;
+            }
         }
     }
 }
