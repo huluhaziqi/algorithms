@@ -169,4 +169,34 @@ public class Permutations {
         }
     }
 
+    class Solution4 {
+        public List<List<Integer>> permute(int[] nums) {
+            if(nums == null || nums.length == 0) {
+                return new ArrayList<>();
+            }
+            List<List<Integer>> result = new ArrayList<>();
+            boolean[] visited = new boolean[nums.length];
+            dfs(nums,new ArrayList<>(), result, visited);
+            return result;
+        }
+
+        void dfs(int[] nums, List<Integer> list, List<List<Integer>> result, boolean[] visited){
+            if(list.size() == nums.length){
+                result.add(new ArrayList<>(list));
+                return;
+            }
+            for(int i = 0; i < nums.length; i++){
+                if(visited[i]){
+                    continue;
+                }
+                list.add(nums[i]);
+                visited[i] = true;
+                dfs(nums,list,result,visited);
+
+                list.remove(list.size() - 1);
+                visited[i] = false;
+            }
+        }
+    }
+
 }
