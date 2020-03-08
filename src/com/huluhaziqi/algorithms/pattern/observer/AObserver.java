@@ -7,6 +7,6 @@ public class AObserver implements Observer {
     }
 
     public AObserver(Subject subject) {
-        subject.resisterObserver(this);
+        subject.registerObserver(this);
     }
 }

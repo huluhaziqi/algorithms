@@ -3,7 +3,7 @@ package com.huluhaziqi.algorithms.pattern.observer;
 public class ConcreteObsrever implements Observer {
 
     public ConcreteObsrever(Subject subject) {
-        subject.resisterObserver(this);
+        subject.registerObserver(this);
     }
 
     @Override

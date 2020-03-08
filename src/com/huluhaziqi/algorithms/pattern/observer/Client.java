@@ -6,8 +6,9 @@ public class Client {
         Weather weather = new Weather();
         Observer observer1 = new AObserver(weather);
         Observer observer2 = new AObserver(weather);
-        Observer observer3 = new ConcreteObsrever(weather);
-
+        Observer observer3 = new AObserver(weather);
+        weather.setMeasurements(100,100,100);
+        weather.notifyObserver();
         weather.setMeasurements(10,20,30);
         weather.setMeasurements(100,200,300);
     }
