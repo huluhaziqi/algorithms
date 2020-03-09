@@ -12,6 +12,7 @@ public class BinaryTreePreorderTraversal {
         result.forEach(o->{
             System.out.print(o + " ");
         });
+
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {
