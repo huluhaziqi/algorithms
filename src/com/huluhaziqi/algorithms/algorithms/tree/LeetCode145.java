@@ -64,12 +64,7 @@ public class LeetCode145 {
         }
     }
 
-    import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Stack;
-
-    class Solution {
+    class Solution3 {
         public List<Integer> postorderTraversal(TreeNode root) {
             if (root == null) {
                 return new ArrayList<>();
@@ -101,3 +96,39 @@ import java.util.Stack;
             return ret;
         }
     }
+    class Solution2 {
+        public List<Integer> postorderTraversal(TreeNode root) {
+            if(root == null){
+                return new ArrayList<>();
+            }
+            List<Integer> ret = new ArrayList<>();
+
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode lastVisited = null;
+            while(root != null || !stack.isEmpty()){
+                while(root != null){
+                    stack.push(root);
+                    root = root.left;
+                }
+                TreeNode node = stack.peek();
+                if(node != null){
+                    if(node.right != null && node.right != lastVisited){
+                        TreeNode right = node.right;
+                        while(right != null){
+                            stack.push(right);
+                            right = right.left;
+                        }
+                    } else {
+                        stack.pop();
+                        lastVisited = node;
+                        ret.add(node.val);
+                    }
+                }
+            }
+            return ret;
+        }
+
+    }
+
+
+}
