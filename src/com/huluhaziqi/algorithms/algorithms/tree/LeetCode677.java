@@ -1,5 +1,8 @@
 package com.huluhaziqi.algorithms.algorithms.tree;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LeetCode677 {
     class MapSum {
 
@@ -62,26 +65,29 @@ public class LeetCode677 {
 
         private Node root = new Node();
 
-        /** Initialize your data structure here. */
+        /**
+         * Initialize your data structure here.
+         */
         public MapSum2() {
 
         }
 
         public void insert(String key, int val) {
-            if(key == null || key.length() == 0){
+            if (key == null || key.length() == 0) {
                 return;
             }
             insert(key, root, val);
         }
-        public void insert(String key, Node node , int val){
-            if(node == null) return;
-            if(key.length() == 0){
+
+        public void insert(String key, Node node, int val) {
+            if (node == null) return;
+            if (key.length() == 0) {
                 node.val = val;
                 return;
             }
             int tem = key.charAt(0) - 'a';
             Node child = node.child[tem];
-            if(child == null){
+            if (child == null) {
                 child = new Node();
             }
             insert(key.substring(1), child, val);
@@ -91,21 +97,182 @@ public class LeetCode677 {
             return sum(prefix, root);
         }
 
-        int sum(String prefix, Node node){
-            if(node == null){
+        int sum(String prefix, Node node) {
+            if (node == null) {
                 return 0;
             }
-            if(prefix.length() != 0){
+            if (prefix.length() != 0) {
                 int tem = prefix.charAt(0) - 'a';
                 Node child = node.child[tem];
                 return sum(prefix.substring(1), child);
             }
             int sum = node.val;
-            for(Node c : node.child){
+            for (Node c : node.child) {
                 sum += sum(prefix, c);
             }
             return sum;
         }
 
     }
+
+    class MapSum3 {
+        Map<String, Integer> map = new HashMap<>();
+
+        /**
+         * Initialize your data structure here.
+         */
+        public MapSum3() {
+
+        }
+
+        public void insert(String key, int val) {
+            map.put(key, val);
+        }
+
+        public int sum(String prefix) {
+            int sum = 0;
+            for (String str : map.keySet()) {
+                if (str.startsWith(prefix)) {
+                    sum += map.get(str);
+                }
+            }
+
+            return sum;
+        }
+    }
+
+    class MapSum {
+        private class Node {
+            Node[] child = new Node[26];
+            int val;
+            boolean isLeaf;
+        }
+
+        private Node root = new Node();
+
+        /**
+         * Initialize your data structure here.
+         */
+        public MapSum() {
+
+        }
+
+        public void insert(String key, int val) {
+            if (key == null || key.length() == 0) {
+                return;
+            }
+            insert(key, root, val);
+        }
+
+        public void insert(String key, Node node, int val) {
+            if (node == null) return;
+            if (key.length() == 0) {
+                node.val = val;
+                return;
+            }
+            int tem = key.charAt(0) - 'a';
+            if (node.child[tem] == null) {
+                node.child[tem] = new Node();
+            }
+            insert(key.substring(1), node.child[tem], val);
+        }
+
+        public int sum(String prefix) {
+            if (prefix == null || prefix.length() == 0) {
+                return 0;
+            }
+            Node node = root;
+            for (int i = 0; i < prefix.length(); i++) {
+                int tem = prefix.charAt(i) - 'a';
+                if (node.child[tem] == null) {
+                    return 0;
+                }
+                node = node.child[tem];
+            }
+            return sum(node);
+        }
+
+        int sum(Node node) {
+            if (node == null) {
+                return 0;
+            }
+            int sum = node.val;
+            for (Node c : node.child) {
+                sum += sum(c);
+            }
+            return sum;
+        }
+
+    }
+
+    class MapSum4 {
+        private class Node {
+            Node[] child = new Node[26];
+            int val;
+            boolean isLeaf;
+        }
+
+        private Node root = new Node();
+
+        /**
+         * Initialize your data structure here.
+         */
+        public MapSum4() {
+
+        }
+
+        public void insert(String key, int val) {
+            if (key == null || key.length() == 0) {
+                return;
+            }
+            insert(key, root, val);
+        }
+
+        public void insert(String key, Node node, int val) {
+            if (node == null) return;
+            if (key.length() == 0) {
+                node.val = val;
+                return;
+            }
+            int tem = key.charAt(0) - 'a';
+            if (node.child[tem] == null) {
+                node.child[tem] = new Node();
+            }
+            insert(key.substring(1), node.child[tem], val);
+        }
+
+        public int sum(String prefix) {
+            if (prefix == null || prefix.length() == 0) {
+                return 0;
+            }
+            Node node = root;
+            for (int i = 0; i < prefix.length(); i++) {
+                int tem = prefix.charAt(i) - 'a';
+                if (node.child[tem] == null) {
+                    return 0;
+                }
+                node = node.child[tem];
+            }
+            return sum(node);
+        }
+
+        int sum(Node node) {
+            if (node == null) {
+                return 0;
+            }
+            int sum = node.val;
+            for (Node c : node.child) {
+                sum += sum(c);
+            }
+            return sum;
+        }
+
+    }
+
+/**
+ * Your MapSum object will be instantiated and called as such:
+ * MapSum obj = new MapSum();
+ * obj.insert(key,val);
+ * int param_2 = obj.sum(prefix);
+ */
 }
