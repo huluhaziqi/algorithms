@@ -141,7 +141,7 @@ public class LeetCode677 {
         }
     }
 
-    class MapSum {
+    class MapSum5 {
         private class Node {
             Node[] child = new Node[26];
             int val;
@@ -153,7 +153,7 @@ public class LeetCode677 {
         /**
          * Initialize your data structure here.
          */
-        public MapSum() {
+        public MapSum5() {
 
         }
 
