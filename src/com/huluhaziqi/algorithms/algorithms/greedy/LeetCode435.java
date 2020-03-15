@@ -70,4 +70,43 @@ public class LeetCode435 {
             return intervals.length - count;
         }
     }
+
+    class Solution2 {
+        public int eraseOverlapIntervals(int[][] intervals) {
+            if(intervals == null || intervals.length == 0){
+                return 0;
+            }
+            Arrays.sort(intervals,Comparator.comparingInt(o->o[1]));
+            int count = 0;
+            int preEnd = intervals[0][1];
+            for(int i = 1; i < intervals.length; i++){
+                if(intervals[i][0] < preEnd){
+                    count++;
+                } else {
+                    preEnd = intervals[i][1];
+                }
+            }
+            return count;
+        }
+    }
+
+    class Solution3 {
+        public int eraseOverlapIntervals(int[][] intervals) {
+            if(intervals == null || intervals.length == 0){
+                return 0;
+            }
+            Arrays.sort(intervals,Comparator.comparingInt(o->o[0]));
+            int count = 0;
+            int preEnd = intervals[0][1];
+            for(int i = 1; i < intervals.length; i++){
+                if(intervals[i][0] < preEnd){
+                    preEnd = Math.min(preEnd, intervals[i][1]);
+                    count++;
+                } else {
+                    preEnd = intervals[i][1];
+                }
+            }
+            return count;
+        }
+    }
 }
