@@ -20,4 +20,24 @@ public class LeetCode392 {
             return index == -1 ? false : true;
         }
     }
+
+    class Solution2 {
+        public boolean isSubsequence(String s, String t) {
+            if (t == null || s == null || s.length() > t.length()) {
+                return false;
+            }
+            int i = 0;
+            int j = 0;
+            while (i < s.length() && j < t.length()) {
+                if (s.charAt(i) == t.charAt(j)) {
+                    i++;
+                }
+                j++;
+            }
+            if (i != s.length()) {
+                return false;
+            }
+            return true;
+        }
+    }
 }

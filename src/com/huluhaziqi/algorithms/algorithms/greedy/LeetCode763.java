@@ -9,7 +9,7 @@ public class LeetCode763 {
      * 763. Partition Labels
      * Medium
      * A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
-     *
+     * <p>
      * Example 1:
      * Input: S = "ababcbacadefegdehijhklij"
      * Output: [9,7,8]
@@ -18,7 +18,7 @@ public class LeetCode763 {
      * This is a partition so that each letter appears in at most one part.
      * A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
      * Note:
-     *
+     * <p>
      * S will have length in range [1, 500].
      * S will consist of lowercase letters ('a' to 'z') only.
      */
@@ -43,7 +43,7 @@ public class LeetCode763 {
                     }
                 }
                 result.add(end - i + 1);
-                i = end + 1 ;
+                i = end + 1;
             }
             return result;
         }
@@ -59,6 +59,39 @@ public class LeetCode763 {
         List<Integer> result = solution.partitionLabels(s);
         for (Integer i : result) {
             System.out.println(i);
+        }
+    }
+
+    class Solution2 {
+        public List<Integer> partitionLabels(String s) {
+            List<Integer> ret = new ArrayList<>();
+            if (s == null || s.length() == 0) {
+                return ret;
+            }
+            int[] lastIndex = new int[26];
+            for (int i = 0; i < s.length(); i++) {
+                int t = toInt(s.charAt(i));
+                lastIndex[t] = i;
+            }
+            int i = 0;
+            int index = 0;
+            int preIndex = -1;
+            while (i < s.length()) {
+                int nextIndex = lastIndex[toInt(s.charAt(i))];
+                if (nextIndex > index) {
+                    index = nextIndex;
+                }
+                if (i == index) {
+                    ret.add(index - preIndex);
+                    preIndex = index;
+                }
+                i++;
+            }
+            return ret;
+        }
+
+        int toInt(char c) {
+            return c - 'a';
         }
     }
 }
