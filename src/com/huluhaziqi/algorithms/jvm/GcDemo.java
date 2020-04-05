@@ -10,7 +10,7 @@ public class GcDemo {
 
     public static int count = 0;
 
-    public static void f() {
+    public static void indf() {
         count++;
         System.out.println(count);
         f();
