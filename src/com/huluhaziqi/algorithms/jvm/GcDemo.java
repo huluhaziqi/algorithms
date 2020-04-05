@@ -4,7 +4,6 @@ public class GcDemo {
     public Object instance = null;
 
     public static void main(String[] args) {
-        f();
         System.gc();
     }
 
@@ -13,6 +12,5 @@ public class GcDemo {
     public static void indf() {
         count++;
         System.out.println(count);
-        f();
     }
 }
