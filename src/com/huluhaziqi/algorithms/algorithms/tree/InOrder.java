@@ -45,4 +45,22 @@ public class InOrder {
             return list;
         }
     }
+
+    class Solution2 {
+        public List<Integer> inorderTraversal(TreeNode root) {
+            if(root == null){
+                return new ArrayList<>();
+            }
+            List<Integer> res = new ArrayList<>();
+            if(root.left != null){
+                res.addAll(inorderTraversal(root.left));
+            }
+            res.add(root.val);
+            if(root.right != null){
+                res.addAll(inorderTraversal(root.right));
+            }
+            return res;
+        }
+
+    }
 }
