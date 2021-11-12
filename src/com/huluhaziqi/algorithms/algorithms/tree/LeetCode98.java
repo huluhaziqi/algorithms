@@ -31,4 +31,24 @@ public class LeetCode98 {
             return true;
         }
     }
+
+    class Solution2 {
+        public boolean isValidBST(TreeNode root) {
+            if(root == null){
+                return true;
+            }
+            return isValid(root, Long.MIN_VALUE, Long.MAX_VALUE);
+
+        }
+
+        public boolean isValid(TreeNode root, long start, long end){
+            if(root == null ){
+                return true;
+            }
+            if(root.val <= start || root.val >= end){
+                return false;
+            }
+            return isValid(root.left, start, root.val) &&isValid(root.right, root.val, end);
+        }
+    }
 }
