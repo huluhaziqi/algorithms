@@ -55,4 +55,39 @@ public class LeetCode109 {
             return pre;
         }
     }
+
+    class Solution2 {
+        public TreeNode sortedListToBST(ListNode head) {
+            if(head == null){
+                return null;
+            }
+            TreeNode root = buildTree(head,null);
+            return root;
+        }
+        public TreeNode buildTree(ListNode head, ListNode right){
+            if(head == right){
+                return null;
+            }
+            ListNode min = getmin(head, right);
+            TreeNode root = new TreeNode(min.val);
+            root.left = buildTree(head, min);
+            root.right = buildTree(min.next, right);
+            return root;
+        }
+        public ListNode getmin(ListNode head,  ListNode e){
+            if(head == null){
+                return null;
+            }
+            if(head.next == null){
+                return head;
+            }
+            ListNode first = head;
+            ListNode second = head;
+            while(second != e && second.next != e ){
+                first = first.next;
+                second = second.next.next;
+            }
+            return first;
+        }
+    }
 }
