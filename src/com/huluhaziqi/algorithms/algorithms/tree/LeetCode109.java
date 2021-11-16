@@ -90,4 +90,44 @@ public class LeetCode109 {
             return first;
         }
     }
+
+    class Solution3 {
+        public TreeNode sortedListToBST(ListNode head) {
+            if(head == null){
+                return null;
+            }
+            TreeNode root = buildTree(head);
+            return root;
+        }
+        public TreeNode buildTree(ListNode head){
+            if(head == null){
+                return null;
+            }
+            if(head.next == null){
+                return new TreeNode(head.val);
+            }
+            ListNode pre = getmin(head);
+            ListNode mid = pre.next;
+            TreeNode root = new TreeNode(mid.val);
+            pre.next = null;
+            root.left = buildTree(head);
+            root.right = buildTree(mid.next);
+
+            return root;
+        }
+        public ListNode getmin(ListNode head){
+            if(head == null){
+                return null;
+            }
+            ListNode pre = head;
+            ListNode first = head;
+            ListNode second = head;
+            while(second !=null  && second.next != null ){
+                pre = first;
+                first = first.next;
+                second = second.next.next;
+            }
+            return pre;
+        }
+    }
 }
