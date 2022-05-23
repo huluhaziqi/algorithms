@@ -1,5 +1,7 @@
 package com.huluhaziqi.algorithms.algorithms.bfs_dfs;
 
+import javafx.util.Pair;
+
 import java.util.Stack;
 
 public class MaxAreaOfIsland {
@@ -8,7 +10,7 @@ public class MaxAreaOfIsland {
 
     public static void main(String[] args) {
         int[][] grid = {{1, 1, 0, 0, 0}, {1, 1, 0, 0, 0}, {0, 0, 0, 1, 1}, {0, 0, 0, 1, 1}};
-        int reuslt = new MaxAreaOfIsland().maxAreaOfIsland(grid);
+        int reuslt = new MaxAreaOfIsland().maxAreaOfIsland4(grid);
         System.out.println(reuslt);
     }
 
@@ -99,4 +101,38 @@ public class MaxAreaOfIsland {
             return count;
         }
     }
+
+    public int maxAreaOfIsland4(int[][] grid) {
+        if(grid == null || grid.length == 0){
+            return 0;
+        }
+        int area = 0;
+        Stack<Pair<Integer,Integer>> stack = new Stack<>();
+        for(int i = 0; i < grid.length; i++){
+            for(int j = 0; j < grid[0].length; j++){
+                int cur = 0;
+                stack.push(new Pair<>(i,j));
+                while(!stack.isEmpty()){
+                    Pair top = stack.pop();
+                    cur++;
+                    int x1 = (int)top.getKey() ;
+                    int y1 = (int)top.getValue();
+                    if(x1 < 0 || x1 >= grid.length || y1 < 0 || y1 >= grid.length ||grid[x1][y1] == 0){
+                        continue;
+                    }
+                    grid[x1][y1] = 0;
+                    for(int k = 0; k < 4; k++){
+                        int x2 = x1 + dir[k][0];
+                        int y2 = y1 + dir[k][1];
+                        stack.push(new Pair<>(x2,y2));
+                    }
+                }
+                System.out.println(" cur " + cur);
+                area = Math.max(area, cur);
+            }
+        }
+        return area;
+    }
+
+    int[][] dir = {{0, 1},{ 1,0},{ -1, 0},{0, -1}};
 }

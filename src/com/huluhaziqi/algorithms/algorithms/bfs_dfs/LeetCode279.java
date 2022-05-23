@@ -1,9 +1,6 @@
 package com.huluhaziqi.algorithms.algorithms.bfs_dfs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class LeetCode279 {
     /**
@@ -198,7 +195,9 @@ public class LeetCode279 {
                 return 0;
             }
             int[] dp = new int[n + 1];
+            Map<String,Integer> map = new HashMap<>();
             dp[1] = 1;
+           int a =  map.get("e");
             List<Integer> list = generateSquares(n);
             for (int k = 2; k <= n; k++) {
                 dp[k] = Integer.MAX_VALUE;

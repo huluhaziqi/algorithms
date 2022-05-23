@@ -1,9 +1,6 @@
 package com.huluhaziqi.algorithms.algorithms.bfs_dfs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class WordLadder {
 
@@ -117,6 +114,75 @@ public class WordLadder {
             }
             return count == 1 ? true : false;
         }
-
     }
+     int ladderLengthh(String beginWord, String endWord, List<String> wordList) {
+            if(wordList == null || !wordList.contains(endWord)){
+                return 0;
+            }
+            int len1 = beginWord.length();
+            int len2 = endWord.length();
+            int wl = wordList.size();
+            Queue<String> q = new LinkedList<>();
+            boolean[] visited = new boolean[wl + 1];
+            Map<String,Integer> map = new HashMap<>();
+
+            for(int i = 1;i < wl + 1; i++){
+                map.put(wordList.get(i - 1), i);
+            }
+            q.add(beginWord);
+            int level = 1;
+            while(!q.isEmpty()){
+                int size = q.size();
+                level++;
+                while(size-- > 0){
+                    String top = q.poll();
+                    if(top.equals(endWord)){
+                        return level + 1;
+                    }
+                    if(level >= wl){
+                        break;
+                    }
+                    System.out.println("top " + top);
+                    int index = map.get(top);
+                    visited[index] = true;
+                    for(int k = 0; k < wl; k++){
+                        String next = wordList.get(k);
+                        int indexNext = map.get(next);
+                        if(visited[indexNext]){
+                            continue;
+                        }
+                        if(!diff(top, next)){
+                            continue;
+                        }
+                        q.add(next);
+
+                    }
+                }
+            }
+            return 0;
+        }
+
+        public boolean diff(String a,String b){
+            if(a == null || b == null ){
+                return false;
+            }
+            if(a == "" || b == "" ){
+                return false;
+            }
+            int len1 = a.length();
+            int len2 = b.length();
+            int index = 0;
+            int i = 0;
+            while(i < len1 && i < len2){
+                if(a.charAt(i) != b.charAt(i)){
+                    index++;
+                }
+                i++;
+                if(index >= 2){
+                    return false;
+                }
+            }
+            return true;
+        }
+
 }

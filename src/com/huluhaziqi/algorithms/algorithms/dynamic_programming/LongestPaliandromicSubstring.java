@@ -16,6 +16,7 @@ public class LongestPaliandromicSubstring {
         if (len == 1) {
             return s;
         }
+
         boolean[][] dp = new boolean[len][len];
         for (int i = 0; i < len; i++) {
             dp[i][i] = true;

@@ -117,4 +117,36 @@ public class NumberIsIsland {
             }
         }
     }
+
+    class Solution2 {
+        public int numIslands(char[][] grid) {
+            if(grid == null || grid.length == 0){
+                return 0;
+            }
+            int len1 = grid.length;
+            int len2 = grid[0].length;
+            int num = 0;
+            for(int i = 0; i< len1; i++){
+                for(int j = 0; j < len2; j++){
+                    num += dfs(grid,i,j) == 0 ? 0 : 1;
+                }
+            }
+            return num;
+        }
+        int[][] dir = {{0, -1}, {0 , 1}, {1, 0}, {-1, 0}};
+        int dfs(char[][] grid, int x, int y){
+            if(x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || grid[x][y] == '0'){
+                return 0;
+            }
+            int area = 1;
+            grid[x][y] = '0';
+            for(int i = 0; i < 4; i++){
+                int x1 = x + dir[i][0];
+                int y1 = y + dir[i][1];
+                area += dfs(grid,x1,y1);
+            }
+            return area;
+        }
+
+    }
 }
