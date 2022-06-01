@@ -120,4 +120,39 @@ public class RestoreIpAddress {
         }
     }
 
+        public List<String> restoreIpAddresses3(String s) {
+            List<String>  list = new ArrayList<>();
+            if(s == null || s.length() == 0){
+                return list;
+            }
+            address(new StringBuilder(), s, 0, list);
+            return list;
+        }
+
+        void address(StringBuilder temp, String s, int index, List<String> list){
+            if(index == 4 || s.length() == 0){
+                if(index == 4 && s.length() == 0){
+                    list.add(temp.toString());
+                }
+                return;
+            }
+
+            for(int i = 0; i < 3; i++){
+                if(i != 0 && s.charAt(0) == '0'){
+                    break;
+                }
+                String sub = s.substring(0, i + 1);
+                int next = Integer.valueOf(sub);
+                if(next <= 255){
+                    if(temp.length() != 0){
+                        sub = '.' + sub;
+                    }
+                    temp.append(sub);
+                    address(temp,s.substring(i + 1), index + 1, list);
+                    temp.delete(temp.length() - sub.length(), temp.length());
+                }
+
+            }
+        }
+
 }

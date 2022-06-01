@@ -12,6 +12,8 @@ public class Combinations {
             o.forEach(p -> System.out.print(p + " "));
             System.out.print("     ");
         });
+        Map map = new HashMap();
+
     }
 
 

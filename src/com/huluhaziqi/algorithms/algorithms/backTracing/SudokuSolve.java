@@ -51,7 +51,7 @@ public class SudokuSolve {
                 {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
                 {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
                 {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
-        new SudokuSolve().solveSudoku(board);
+        new Solution3().solveSudoku(board);
         for (char[] chars : board) {
             for (char aChar : chars) {
                 System.out.print(aChar + ",");
@@ -188,5 +188,68 @@ public class SudokuSolve {
         boolean cubeUsed[][] = new boolean[9][10];
 
     }
+    static class Solution3 {
+        public void solveSudoku(char[][] board) {
+            if(board == null || board.length == 0){
+                return ;
+            }
+            int r = board.length;
+            int c = board[0].length;
+            for(int i = 0; i < 9; i++){
+                for(int j = 0; j < 9; j++){
+                    if(board[i][j] == '.'){
+                        continue;
+                    }
+                    int value = board[i][j] - '0';
+                    row[i][value] = true;
+                    col[j][value] = true;
+                    int cur = cub(i,j);
+                    cub[cur][value] = true;
+                }
+            }
+            dfs(board,0,0);
+        }
+
+
+        boolean[][] row = new boolean[9][10];
+        boolean[][] col = new boolean[9][10];
+        boolean[][] cub = new boolean[9][10];
+
+        boolean dfs(char[][] board,int x, int y){
+            while(x < 9 && board[x][y] != '.'){
+                x = y == 8 ? x + 1 : x;
+                y = y == 8 ?  0 : y+1;
+            }
+            if(x == 9){
+                return true;
+            }
+
+            for(int i = 1; i<= 9; i++){
+                int c = cub(x,y);
+                if(row[x][i]|| col[y][i] || cub[c][i]){
+                    continue;
+                }
+                row[x][i]= col[y][i] = cub[c][i] = true;
+                board[x][y] = (char)(i);
+                System.out.println(" board :" + board[x][y]);
+
+
+                if(dfs(board,x,y)){
+                    return true;
+                }
+                board[x][y] = '.';
+
+                row[x][i]= col[y][i] = cub[c][i] = false;
+            }
+            return false;
+        }
+
+        int cub(int x, int y){
+            int c = x / 3;
+            int r = y / 3;
+            return c* 3 + r;
+        }
+    }
+
 
 }

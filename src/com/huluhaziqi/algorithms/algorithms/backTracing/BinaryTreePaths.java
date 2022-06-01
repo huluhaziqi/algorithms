@@ -154,6 +154,7 @@ public class BinaryTreePaths {
             dfs(node.right, out + tem, result);
             List<List<String>> result1  = new ArrayList<>();
             result1.add(new ArrayList<>(result));
+
         }
 
     }
