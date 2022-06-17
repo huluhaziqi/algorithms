@@ -146,4 +146,25 @@ public class IsBalanced {
 
         }
     }
+    public boolean isBalanced3(TreeNode root) {
+        if(root == null){return true;
+        }
+        balance(root);
+        return result;
+    }
+
+    boolean result = true;
+
+    int balance(TreeNode node ){
+        if(node == null){
+            return 0;
+        }
+        int depth = 0;
+        int left = balance(node.left);
+        int right = balance(node.right);
+        result &= (Math.abs(left - right) <= 1) ? true : false;
+        depth = Math.max(left, right) + 1;
+        return depth;
+    }
+
 }

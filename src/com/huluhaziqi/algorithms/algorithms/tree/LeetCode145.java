@@ -129,6 +129,51 @@ public class LeetCode145 {
         }
 
     }
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode() {}
+     *     TreeNode(int val) { this.val = val; }
+     *     TreeNode(int val, TreeNode left, TreeNode right) {
+     *         this.val = val;
+     *         this.left = left;
+     *         this.right = right;
+     *     }
+     * }
+     */
+    class Solution3 {
+        public List<Integer> postorderTraversal(TreeNode root) {
+            List<Integer> list = new ArrayList<>();
+            if(root == null){
+                return list;
+            }
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode last = null;
+            TreeNode tmp = root;
+            while(tmp != null || !stack.isEmpty()){
+                while(tmp != null){
+                    stack.push(tmp);
+                    tmp = tmp.left;
+                }
+                TreeNode top = stack.pop();
+                if(top == null){
+                    continue;
+                }
+                if(top.right != null && top.right != last){
+                    stack.push(top);
+                    tmp = top.right;
+                } else {
+                    list.add(top.val);
+                    last = top;
+                }
+            }
+
+            return list;
+        }
+    }
 
 
 }
