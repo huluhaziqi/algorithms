@@ -144,7 +144,7 @@ public class LeetCode145 {
      *     }
      * }
      */
-    class Solution3 {
+    class Solution4 {
         public List<Integer> postorderTraversal(TreeNode root) {
             List<Integer> list = new ArrayList<>();
             if(root == null){
