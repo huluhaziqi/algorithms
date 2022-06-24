@@ -269,7 +269,7 @@ public class LeetCode677 {
 
     }
 
-    class MapSum5 {
+    class MapSum10 {
         private class Node {
             Node[] childs = new Node[26];
             boolean isLeaf = false;
@@ -280,7 +280,7 @@ public class LeetCode677 {
 
         Map<String, Integer> map = new HashMap<>();
 
-        public MapSum5() {
+        public MapSum10() {
 
         }
 

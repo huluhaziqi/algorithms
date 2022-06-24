@@ -93,4 +93,43 @@ public class LeetCode347 {
             return result;
         }
     }
+
+    class Solution3 {
+        public int[] topKFrequent(int[] nums, int k) {
+            if(nums == null || k < 0){
+                return new int[0];
+            }
+            Map<Integer,Integer> map = new HashMap<>();
+            for(int n : nums){
+                map.put(n,map.getOrDefault(n, 0) + 1);
+            }
+            List<Integer>[] bucket = new ArrayList[nums.length + 1];
+            for(int key : map.keySet()){
+                int frequence = map.get(key);
+                if(bucket[frequence] == null){
+                    bucket[frequence] = new ArrayList<>();
+                }
+                bucket[frequence].add(key);
+            }
+            List<Integer> top = new ArrayList<>();
+            for(int i = bucket.length - 1; i >= 0 && top.size() < k; i--){
+
+                if(bucket[i] == null){
+                    continue;
+                }
+                if(bucket[i].size() <= k - top.size()){
+                    top.addAll(bucket[i]);
+                }
+                if(bucket[i].size() > k - top.size()){
+                    top.addAll(bucket[i].subList(0,k - top.size()));
+                }
+            }
+            int[] res = new int[top.size()];
+            int j = 0;
+            for(int i : top){
+                res[j++] = i;
+            }
+            return res;
+        }
+    }
 }

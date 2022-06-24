@@ -4,7 +4,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] array = {6,5,4,10,20,1,1,21,1,0,1,1,1,0};
-        new QuickSort().quickSort4(array, 0, array.length - 1);
+        new QuickSort().quickSort5(array, 0, array.length - 1);
         for (int i : array) {
             System.out.println(i);
         }
@@ -119,6 +119,42 @@ public class QuickSort {
             }
         }
         swap(array, start, r);
+        return r;
+    }
+
+
+    public void quickSort5(int[] array, int start, int end) {
+        if (start >= end) {
+            return;
+        }
+        int index = partion5(array, start, end);
+        if(index != -1) {
+            quickSort5(array,start,index - 1);
+            quickSort5(array,index + 1, end);
+        }
+    }
+
+    public int partion5(int[] array, int start, int end) {
+        if(start > end){
+            return -1;
+        }
+        int l = start + 1;
+        int r = end;
+        while(l <= r){
+            while(l <= r && array[l] < array[start]){
+                l++;
+            }
+            while(l <= r && array[r] > array[start]){
+                r--;
+            }
+            if(l <= r){
+
+                swap(array,l,r);
+                l++;
+                r--;
+            }
+        }
+        swap(array,start,r);
         return r;
     }
 

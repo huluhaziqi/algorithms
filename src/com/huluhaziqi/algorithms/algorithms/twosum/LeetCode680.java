@@ -69,4 +69,36 @@ public class LeetCode680 {
             return true;
         }
     }
+
+    class Solution3 {
+        public boolean validPalindrome(String s) {
+            if(s == null){
+                return false;
+            }
+            int i = 0;
+            int j = s.length() - 1;
+            char[] chars = s.toCharArray();
+            while(i <= j){
+                if(s.charAt(i) == s.charAt(j)){
+                    i++;
+                    j--;
+                    continue;
+                } else {
+                    return judge(chars,i, j - 1) || judge(chars, i + 1, j);
+                }
+            }
+            return true;
+        }
+
+        boolean judge(char[] chars, int i, int j){
+            while(i <= j){
+                if(chars[i] != chars[j]){
+                    return false;
+                }
+                i++;
+                j--;
+            }
+            return true;
+        }
+    }
 }

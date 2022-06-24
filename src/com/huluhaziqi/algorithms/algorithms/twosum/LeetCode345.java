@@ -1,5 +1,9 @@
 package com.huluhaziqi.algorithms.algorithms.twosum;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 public class LeetCode345 {
 
 
@@ -77,6 +81,34 @@ public class LeetCode345 {
                 return true;
             }
             return false;
+        }
+    }
+
+    class Solution3 {
+        public String reverseVowels(String s) {
+            if(s == null){
+                return null;
+            }
+            Set<Character> set = new HashSet(Arrays.asList('a','e','i','o','u','A','E','I','O','U'));
+            char[] str = s.toCharArray();
+            int i = 0;
+            int j = str.length - 1;
+            while(i < j){
+                if(!set.contains(str[i])){
+                    i++;
+                }
+                if(!set.contains(str[i])){
+                    j--;
+                }
+                if(set.contains(str[i]) && set.contains(str[j])){
+                    Character tmp = str[i];
+                    str[i] = str[j];
+                    str[j] = tmp;
+                    i++;
+                    j--;
+                }
+            }
+            return Arrays.toString(str);
         }
     }
 }

@@ -9,7 +9,9 @@ package com.huluhaziqi.algorithms.algorithms.twosum;
 //        解释: 1 * 1 + 2 * 2 = 5
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class LeetCode633 {
 
@@ -80,6 +82,40 @@ public class LeetCode633 {
                 result.add(i * i);
             }
             return result;
+        }
+    }
+
+    class Solution3 {
+        public boolean judgeSquareSum(int c) {
+            if (c <= 1) {
+                return false;
+            }
+            Set<Integer> set = ping(c);
+            int left = 0;
+            for (int s : set) {
+                if (set.contains(c - s)) {
+                    return true;
+                }
+            }
+            for (int i : set) {
+                if (set.contains(c - i)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public Set<Integer> ping(int n) {
+            Set<Integer> set = new HashSet<>();
+            set.add(0);
+            int diff = 3;
+            int cur = 1;
+            while (cur <= n) {
+                set.add(cur);
+                cur += diff;
+                diff += 2;
+            }
+            return set;
         }
     }
 }
