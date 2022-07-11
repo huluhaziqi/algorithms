@@ -11,5 +11,7 @@ public class ThreadPoolExecutorDemo {
                 0L,
                 TimeUnit.SECONDS,
                 new LinkedBlockingQueue(1024), Executors.defaultThreadFactory());
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(10, 50,
+                0l, TimeUnit.SECONDS, new LinkedBlockingDeque<>(1024), Executors.defaultThreadFactory());
     }
 }
