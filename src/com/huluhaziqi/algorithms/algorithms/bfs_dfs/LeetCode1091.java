@@ -11,9 +11,10 @@ public class LeetCode1091 {
 //        int[][] grid = {{0}};
 //        solution.shortestPathBinaryMatrix(grid);
         // [[0,1,0,0,1,1,0],[1,0,0,0,0,0,0],[1,0,0,1,1,1,1],[0,1,0,0,0,0,0],[1,0,0,0,0,0,1],[1,0,0,1,0,0,0],[1,0,1,0,0,1,0]]
-        Solution2 solution2 = new Solution2();
-        int[][] grid = {{0, 1, 0, 0, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 0}, {1, 0, 0, 1, 1, 1, 1}, {0, 1, 0, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 1, 0, 0, 0}, {1, 0, 1, 0, 0, 1, 0}};
-        int result = solution2.shortestPathBinaryMatrix(grid);
+        Solution4 solution4 = new Solution4();
+//        int[][] grid = {{0, 1, 0, 0, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 0}, {1, 0, 0, 1, 1, 1, 1}, {0, 1, 0, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 0, 1}, {1, 0, 0, 1, 0, 0, 0}, {1, 0, 1, 0, 0, 1, 0}};
+        int[][] grid = {{0,0,0}, {1,1,0}, {1,1,1}};
+        int result = solution4.shortestPathBinaryMatrix(grid);
         System.out.println(result);
     }
 
@@ -147,5 +148,46 @@ public class LeetCode1091 {
         }
 
         int[][] direction = {{-1, -1}, {-1, 0}, {-1, 1}, {0, 1}, {0, -1}, {1, 0}, {1, -1}, {1, 1}};
+    }
+
+    static class Solution4 {
+        public int shortestPathBinaryMatrix(int[][] grid) {
+            if(grid == null || grid.length == 0){
+                return 0;
+            }
+            if(grid[0][0] == 1){
+                return -1;
+            }
+            int[][] dir = {{1, -1}, {1, 0}, {1, 1}, {0, -1}, {0, 1}, {-1, -1}, {-1, 0}, {-1, 1}};
+            Queue<int[]> q = new LinkedList<>();
+            q.add(new int[]{0, 0});
+            int level = 0;
+            while(!q.isEmpty()){
+                int size = q.size();
+                level++;
+                while(size-- > 0){
+                    int[] top = q.poll();
+                    if(grid[top[0]][top[1]] == 1){
+                        continue;
+                    }
+                    if(top[0] == grid.length - 1 && top[1] == grid[0].length - 1){
+                        return level;
+                    }
+                    grid[top[0]][top[1]] = 1;
+                    for(int i = 0; i < 8; i++){
+                        int x = top[0] + dir[i][0];
+                        int y = top[1] + dir[i][1];
+                        if(x < 0 || x > grid.length - 1
+                                || y < 0 || y> grid[0].length - 1){
+                            continue;
+                        }
+                        q.offer(new int[]{x, y});
+                    }
+                }
+            }
+            return -1;
+        }
+
+
     }
 }
